@@ -81,6 +81,7 @@
 		7449D0F22A029CA5003BEDBF /* Ignitehub.App */ = {
 			isa = PBXGroup;
 			children = (
+				EB8CE6D82A16684800CD9E4B /* FileProcceser */,
 				7449D0F32A029CA5003BEDBF /* AppDelegate.swift */,
 				7449D0F52A029CA5003BEDBF /* SceneDelegate.swift */,
 				7449D0F72A029CA5003BEDBF /* ViewController.swift */,
@@ -109,6 +110,29 @@
 				74FF16562A13465800DB94D1 /* EventCell.swift */,
 			);
 			path = Calendar;
+			sourceTree = "<group>";
+		};
+		EB8CE6D82A16684800CD9E4B /* FileProcceser */ = {
+			isa = PBXGroup;
+			children = (
+				EB8CE6DA2A16688500CD9E4B /* FileParser */,
+				EB8CE6D92A16687200CD9E4B /* FileDownload */,
+			);
+			path = FileProcceser;
+			sourceTree = "<group>";
+		};
+		EB8CE6D92A16687200CD9E4B /* FileDownload */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FileDownload;
+			sourceTree = "<group>";
+		};
+		EB8CE6DA2A16688500CD9E4B /* FileParser */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FileParser;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
