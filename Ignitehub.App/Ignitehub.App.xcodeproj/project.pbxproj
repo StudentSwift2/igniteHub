@@ -24,6 +24,9 @@
 		74FF165B2A13471F00DB94D1 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FF165A2A13471F00DB94D1 /* Event.swift */; };
 		74FF5C672A146F2600380170 /* Carousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FF5C662A146F2600380170 /* Carousel.swift */; };
 		74FF5C692A14706E00380170 /* CarouselLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FF5C682A14706E00380170 /* CarouselLayout.swift */; };
+		EB8CE6DC2A1669EE00CD9E4B /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8CE6DB2A1669EE00CD9E4B /* Parser.swift */; };
+		EBBA058E2A17282C003DB78A /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBA058D2A17282C003DB78A /* Downloader.swift */; };
+		EBBA05902A172F9E003DB78A /* FileConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBA058F2A172F9E003DB78A /* FileConverter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +52,9 @@
 		74FF165A2A13471F00DB94D1 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		74FF5C662A146F2600380170 /* Carousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carousel.swift; sourceTree = "<group>"; };
 		74FF5C682A14706E00380170 /* CarouselLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselLayout.swift; sourceTree = "<group>"; };
+		EB8CE6DB2A1669EE00CD9E4B /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		EBBA058D2A17282C003DB78A /* Downloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Downloader.swift; sourceTree = "<group>"; };
+		EBBA058F2A172F9E003DB78A /* FileConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileConverter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +130,7 @@
 		EB8CE6D92A16687200CD9E4B /* FileDownload */ = {
 			isa = PBXGroup;
 			children = (
+				EBBA058D2A17282C003DB78A /* Downloader.swift */,
 			);
 			path = FileDownload;
 			sourceTree = "<group>";
@@ -131,6 +138,8 @@
 		EB8CE6DA2A16688500CD9E4B /* FileParser */ = {
 			isa = PBXGroup;
 			children = (
+				EB8CE6DB2A1669EE00CD9E4B /* Parser.swift */,
+				EBBA058F2A172F9E003DB78A /* FileConverter.swift */,
 			);
 			path = FileParser;
 			sourceTree = "<group>";
@@ -213,7 +222,10 @@
 				74C9153D2A0303E500D0B0EB /* launchData.swift in Sources */,
 				74FF16552A13350500DB94D1 /* WeeklyViewController.swift in Sources */,
 				74FF165B2A13471F00DB94D1 /* Event.swift in Sources */,
+				EBBA058E2A17282C003DB78A /* Downloader.swift in Sources */,
+				EBBA05902A172F9E003DB78A /* FileConverter.swift in Sources */,
 				74FE1DCC2A1323C200082D98 /* CalendarCell.swift in Sources */,
+				EB8CE6DC2A1669EE00CD9E4B /* Parser.swift in Sources */,
 				7449D0F82A029CA5003BEDBF /* ViewController.swift in Sources */,
 				74FF16572A13465800DB94D1 /* EventCell.swift in Sources */,
 				74FF5C692A14706E00380170 /* CarouselLayout.swift in Sources */,
