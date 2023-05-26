@@ -46,6 +46,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let events = FileProccesser.getIgniteHubCalerderData();
+        if let events = events { eventsList = events }
+        
         igniteLabel.layer.backgroundColor  = UIColor.white.cgColor
         igniteLabel.layer.cornerRadius = 10
         igniteLabel.layer.masksToBounds = true

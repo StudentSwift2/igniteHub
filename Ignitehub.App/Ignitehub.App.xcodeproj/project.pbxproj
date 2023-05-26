@@ -24,9 +24,11 @@
 		74FF165B2A13471F00DB94D1 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FF165A2A13471F00DB94D1 /* Event.swift */; };
 		74FF5C672A146F2600380170 /* Carousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FF5C662A146F2600380170 /* Carousel.swift */; };
 		74FF5C692A14706E00380170 /* CarouselLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FF5C682A14706E00380170 /* CarouselLayout.swift */; };
+		EB7CEE8A2A1E4CB600AB8245 /* IntermModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7CEE892A1E4CB600AB8245 /* IntermModel.swift */; };
 		EB8CE6DC2A1669EE00CD9E4B /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8CE6DB2A1669EE00CD9E4B /* Parser.swift */; };
 		EBBA058E2A17282C003DB78A /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBA058D2A17282C003DB78A /* Downloader.swift */; };
 		EBBA05902A172F9E003DB78A /* FileConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBA058F2A172F9E003DB78A /* FileConverter.swift */; };
+		EBECA88E2A1EAD180068C2FA /* FileProcceser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBECA88D2A1EAD180068C2FA /* FileProcceser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,9 +54,11 @@
 		74FF165A2A13471F00DB94D1 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		74FF5C662A146F2600380170 /* Carousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carousel.swift; sourceTree = "<group>"; };
 		74FF5C682A14706E00380170 /* CarouselLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselLayout.swift; sourceTree = "<group>"; };
+		EB7CEE892A1E4CB600AB8245 /* IntermModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntermModel.swift; sourceTree = "<group>"; };
 		EB8CE6DB2A1669EE00CD9E4B /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
 		EBBA058D2A17282C003DB78A /* Downloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Downloader.swift; sourceTree = "<group>"; };
 		EBBA058F2A172F9E003DB78A /* FileConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileConverter.swift; sourceTree = "<group>"; };
+		EBECA88D2A1EAD180068C2FA /* FileProcceser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileProcceser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +91,6 @@
 		7449D0F22A029CA5003BEDBF /* Ignitehub.App */ = {
 			isa = PBXGroup;
 			children = (
-				EB8CE6D82A16684800CD9E4B /* FileProcceser */,
 				7449D0F32A029CA5003BEDBF /* AppDelegate.swift */,
 				7449D0F52A029CA5003BEDBF /* SceneDelegate.swift */,
 				7449D0F72A029CA5003BEDBF /* ViewController.swift */,
@@ -95,6 +98,7 @@
 				74FF5C662A146F2600380170 /* Carousel.swift */,
 				74C9153C2A0303E500D0B0EB /* launchData.swift */,
 				7486273D2A0E7A1C00D8A66D /* stringLocalization.swift */,
+				EB8CE6D82A16684800CD9E4B /* FileProcceser */,
 				74FF5C632A146C4C00380170 /* Calendar */,
 				7449D0F92A029CA5003BEDBF /* Main.storyboard */,
 				7449D0FC2A029CB2003BEDBF /* Assets.xcassets */,
@@ -123,6 +127,7 @@
 			children = (
 				EB8CE6DA2A16688500CD9E4B /* FileParser */,
 				EB8CE6D92A16687200CD9E4B /* FileDownload */,
+				EBECA88D2A1EAD180068C2FA /* FileProcceser.swift */,
 			);
 			path = FileProcceser;
 			sourceTree = "<group>";
@@ -140,6 +145,7 @@
 			children = (
 				EB8CE6DB2A1669EE00CD9E4B /* Parser.swift */,
 				EBBA058F2A172F9E003DB78A /* FileConverter.swift */,
+				EB7CEE892A1E4CB600AB8245 /* IntermModel.swift */,
 			);
 			path = FileParser;
 			sourceTree = "<group>";
@@ -217,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB7CEE8A2A1E4CB600AB8245 /* IntermModel.swift in Sources */,
 				74FE1DCE2A13249800082D98 /* CalendarViewController.swift in Sources */,
 				74FE1DD02A13275C00082D98 /* CalendarHelper.swift in Sources */,
 				74C9153D2A0303E500D0B0EB /* launchData.swift in Sources */,
@@ -232,6 +239,7 @@
 				7486273E2A0E7A1C00D8A66D /* stringLocalization.swift in Sources */,
 				74FF5C672A146F2600380170 /* Carousel.swift in Sources */,
 				7449D0F42A029CA5003BEDBF /* AppDelegate.swift in Sources */,
+				EBECA88E2A1EAD180068C2FA /* FileProcceser.swift in Sources */,
 				7449D0F62A029CA5003BEDBF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

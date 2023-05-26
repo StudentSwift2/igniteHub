@@ -7,27 +7,35 @@
 
 import Foundation
 
-var eventsList : [Event] = [Event(id: 343434, name: "Testing", startDate: Date(), endDate: Date(), description: "Just a test")]
+var eventsList : [Event] = [] //[Event(startDate: Date(), endDate: Date(), dateStamp: Date(), created: Date(), lastModified: Date(), id: "test", name: "testing", description: "testing", url: URL(string: "testing.org"))]
 
 class Event {
-    var id: Int!
-    var name: String!
-    var startDate: Date!
-    var endDate: Date!
-    var description : String!
-    var url : URL!
+    var startDate: Date!;  // DTSTART
+    var endDate: Date!;  // DTEND
+    var dateStamp: Date!;  // DTSTAMP
+    var created: Date!;  // CREATED
+    var lastModeified:Date!;  // LAST-MODIFIED
+    var id: String!;  // UID
+    var name: String!;  // SUMMARY
+    var description: String!;  // DESCRIPTION
+    var url: URL!;  // URL
 
     init() {
         
     }
-    
-    init(id: Int!, name: String!, startDate: Date!, endDate: Date!, description: String!) {
-        self.id = id
-        self.name = name
-        self.startDate = startDate
-        self.endDate = endDate
-        self.description = description
-    }
+
+    init(startDate: Date!, endDate: Date!, dateStamp: Date!, created: Date!, lastModified: Date!, id: String!, name: String!, description: String!, url: URL!) {
+        self.startDate = startDate;
+        self.endDate = endDate;
+        self.dateStamp = dateStamp;
+        self.created = created;
+        self.lastModeified = lastModified;
+        self.id = id;
+        self.name = name;
+        self.description = description;
+        self.url = url;
+        }
+   
     
     func eventsForDate(date: Date) -> [Event]
     {
