@@ -21,6 +21,10 @@ class WeeklyViewController: UIViewController, UICollectionViewDelegate, UICollec
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let logo = UIImage(named: "Dark Logo")
+        let imageView = UIImageView(image:logo)
+        self.navigationItem.titleView = imageView
         refresh()
         setCellsView()
         setWeekView()

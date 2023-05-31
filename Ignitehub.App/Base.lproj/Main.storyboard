@@ -16,15 +16,15 @@
             <objects>
                 <viewController title="Home" id="BYZ-38-t0r" customClass="ViewController" customModule="Ignitehub_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="4000"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="4000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rlo-K8-BAT">
                                 <rect key="frame" x="0.0" y="77" width="393" height="1940"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pAs-Rj-mrR">
-                                        <rect key="frame" x="1" y="39" width="394" height="4736"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pAs-Rj-mrR">
+                                        <rect key="frame" x="0.0" y="0.0" width="394" height="4775"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IXG-O1-xaU">
                                                 <rect key="frame" x="0.0" y="-40" width="393" height="2540"/>
@@ -49,7 +49,7 @@
                                                             <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="24"/>
                                                         </buttonConfiguration>
                                                         <connections>
-                                                            <action selector="virtualTour:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Qj-Zd-wfv"/>
+                                                            <action selector="playTourVideo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rYR-Tl-yeW"/>
                                                         </connections>
                                                     </button>
                                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rX6-C5-x4d" customClass="Carousel" customModule="Ignitehub_App" customModuleProvider="target">
@@ -357,6 +357,9 @@ Cg
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="Youtbe BTn"/>
+                                                        <connections>
+                                                            <action selector="toYoutube:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RLV-7P-Vko"/>
+                                                        </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YQ1-jk-BeL">
                                                         <rect key="frame" x="53" y="360" width="286" height="72"/>
@@ -423,6 +426,9 @@ Rockville, MD 20850</string>
                                                             </backgroundConfiguration>
                                                             <fontDescription key="titleFontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="18"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="fireSideDownload:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aGl-6T-lGe"/>
+                                                        </connections>
                                                     </button>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pdf2" highlightedImage="pdf2" translatesAutoresizingMaskIntoConstraints="NO" id="gLw-uq-Ldz">
                                                         <rect key="frame" x="78" y="185" width="239" height="298"/>
@@ -461,7 +467,19 @@ Rockville, MD 20850</string>
                                                             </backgroundConfiguration>
                                                             <fontDescription key="titleFontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="18"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="careerSiteDownload:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yUX-LG-SCC"/>
+                                                        </connections>
                                                     </button>
+                                                    <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hxu-Mk-sya">
+                                                        <rect key="frame" x="0.0" y="1059" width="394" height="247"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <wkWebViewConfiguration key="configuration">
+                                                            <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                                            <wkPreferences key="preferences"/>
+                                                        </wkWebViewConfiguration>
+                                                    </wkWebView>
                                                 </subviews>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                             </view>
@@ -482,40 +500,49 @@ Rockville, MD 20850</string>
                                 <viewLayoutGuide key="contentLayoutGuide" id="DOH-6l-e9a"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="pEQ-kd-jhT"/>
                             </scrollView>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W1P-dY-bee">
-                                <rect key="frame" x="0.0" y="33" width="393" height="44"/>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W1P-dY-bee">
+                                <rect key="frame" x="0.0" y="54" width="390" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </textAttributes>
                                 <items>
                                     <navigationItem title="IgniteHub" id="yJl-vc-Ckd"/>
                                 </items>
+                                <navigationBarAppearance key="standardAppearance">
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </navigationBarAppearance>
                             </navigationBar>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="pAs-Rj-mrR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="7yS-Ag-PjB"/>
-                            <constraint firstItem="pAs-Rj-mrR" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="1" id="HdP-C0-ptD"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Home" image="house.fill" catalog="system" id="wF4-6A-OpV">
                         <imageReference key="selectedImage" image="house.fill" catalog="system" symbolScale="large"/>
                     </tabBarItem>
-                    <size key="freeformSize" width="393" height="4000"/>
+                    <size key="freeformSize" width="390" height="4000"/>
                     <connections>
                         <outlet property="bluewView" destination="IXG-O1-xaU" id="5bH-2L-SgS"/>
                         <outlet property="carouselView" destination="rX6-C5-x4d" id="B5U-za-12e"/>
                         <outlet property="empowerView" destination="uNJ-1j-hHm" id="K3y-uU-34A"/>
                         <outlet property="igniteLabel" destination="zxp-cT-znd" id="5ts-nb-QLD"/>
+                        <outlet property="navTitle" destination="yJl-vc-Ckd" id="1Hv-J7-HTH"/>
+                        <outlet property="webView" destination="hxu-Mk-sya" id="Gj6-vb-T8O"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-7.2000000000000002" y="1856.8965517241379"/>
+            <point key="canvasLocation" x="-8" y="1856.8965517241379"/>
         </scene>
         <!--Home-->
         <scene sceneID="s0g-Ud-M3Y">
             <objects>
-                <viewController title="Home" id="CnY-ld-93N" sceneMemberID="viewController">
+                <viewController title="Home" id="CnY-ld-93N" customClass="AboutViewController" customModule="Ignitehub_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oq3-7o-i0N">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="2100"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -524,7 +551,7 @@ Rockville, MD 20850</string>
                                 <rect key="frame" x="0.0" y="50" width="393" height="1967"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pDE-Xo-2vL">
-                                        <rect key="frame" x="0.0" y="0.0" width="394" height="3000"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="394" height="3600"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A PROGRAM THAT PREPARES FOR TOMORROW TODAY" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KiQ-0S-Djk">
                                                 <rect key="frame" x="1" y="41" width="393" height="154"/>
@@ -618,10 +645,242 @@ Rockville, MD 20850</string>
                                                 <rect key="frame" x="22" y="1394" width="350" height="311"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Eduardo" translatesAutoresizingMaskIntoConstraints="NO" id="0Mc-fZ-qwP">
+                                                <rect key="frame" x="60" y="2207" width="274" height="322"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Eduardo Noboa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ct9-fc-UfV">
+                                                <rect key="frame" x="23" y="2537" width="216" height="36"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Technical Training and Development Coordinator" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ylU-DY-rEe">
+                                                <rect key="frame" x="22" y="2581" width="312" height="84"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <color key="textColor" systemColor="systemRedColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Vathany" translatesAutoresizingMaskIntoConstraints="NO" id="bbC-es-zyy">
+                                                <rect key="frame" x="68" y="2686" width="274" height="322"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CCv-wj-iYP">
+                                                <rect key="frame" x="31" y="3016" width="175" height="36"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Vathany Say
+</string>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O7z-xz-MCR">
+                                                <rect key="frame" x="30" y="3060" width="130" height="65"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Lab Coordinator
+
+</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <color key="textColor" systemColor="systemRedColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o2W-mw-Nxw">
+                                                <rect key="frame" x="0.0" y="3110" width="393" height="750"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ibw-ik-mQd">
+                                                        <rect key="frame" x="53" y="155" width="286" height="98"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment content="Hours (Fall 2022):">
+                                                                <attributes>
+                                                                    <color key="NSBackgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <color key="NSColor" red="0.73725491759999995" green="0.73725491759999995" blue="0.73725491759999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <font key="NSFont" metaFont="systemBold" size="16"/>
+                                                                    <real key="NSKern" value="0.0"/>
+                                                                    <color key="NSStrokeColor" red="0.73725491759999995" green="0.73725491759999995" blue="0.73725491759999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <real key="NSStrokeWidth" value="0.0"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                            <fragment>
+                                                                <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                                                <attributes>
+                                                                    <color key="NSColor" red="0.73725491759999995" green="0.73725491759999995" blue="0.73725491759999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <font key="NSFont" metaFont="system" size="16"/>
+                                                                    <real key="NSKern" value="0.0"/>
+                                                                    <color key="NSStrokeColor" red="0.73725491759999995" green="0.73725491759999995" blue="0.73725491759999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <real key="NSStrokeWidth" value="0.0"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                            <fragment content="Monday–Friday: 9 a.m.–3 p.m.">
+                                                                <attributes>
+                                                                    <color key="NSBackgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <color key="NSColor" red="0.73725491759999995" green="0.73725491759999995" blue="0.73725491759999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <font key="NSFont" metaFont="system" size="16"/>
+                                                                    <real key="NSKern" value="0.0"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                        <tabStops/>
+                                                                    </paragraphStyle>
+                                                                    <color key="NSStrokeColor" red="0.73725491759999995" green="0.73725491759999995" blue="0.73725491759999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <real key="NSStrokeWidth" value="0.0"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                            <fragment>
+                                                                <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                                                <attributes>
+                                                                    <color key="NSColor" red="0.73725491759999995" green="0.73725491759999995" blue="0.73725491759999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <font key="NSFont" metaFont="system" size="16"/>
+                                                                    <real key="NSKern" value="0.0"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                        <tabStops/>
+                                                                    </paragraphStyle>
+                                                                    <color key="NSStrokeColor" red="0.73725491759999995" green="0.73725491759999995" blue="0.73725491759999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <real key="NSStrokeWidth" value="0.0"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                            <fragment content="Saturdays: Special Events Only ">
+                                                                <attributes>
+                                                                    <color key="NSBackgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <color key="NSColor" red="0.73725491759999995" green="0.73725491759999995" blue="0.73725491759999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <font key="NSFont" metaFont="system" size="16"/>
+                                                                    <real key="NSKern" value="0.0"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                        <tabStops/>
+                                                                    </paragraphStyle>
+                                                                    <color key="NSStrokeColor" red="0.73725491759999995" green="0.73725491759999995" blue="0.73725491759999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <real key="NSStrokeWidth" value="0.0"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Smu-sn-fpL">
+                                                        <rect key="frame" x="54" y="246" width="285" height="106"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment content="IgnITe Hub">
+                                                                <attributes>
+                                                                    <color key="NSBackgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <color key="NSColor" red="0.73725491759999995" green="0.73725491759999995" blue="0.73725491759999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <font key="NSFont" metaFont="systemBold" size="16"/>
+                                                                    <real key="NSKern" value="0.0"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="8" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                        <tabStops/>
+                                                                    </paragraphStyle>
+                                                                    <color key="NSStrokeColor" red="0.73725491759999995" green="0.73725491759999995" blue="0.73725491759999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <real key="NSStrokeWidth" value="0.0"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                            <fragment content=" ">
+                                                                <attributes>
+                                                                    <color key="NSColor" red="0.73725491759999995" green="0.73725491759999995" blue="0.73725491759999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <font key="NSFont" metaFont="systemBold" size="16"/>
+                                                                    <real key="NSKern" value="0.0"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="8" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                        <tabStops/>
+                                                                    </paragraphStyle>
+                                                                    <color key="NSStrokeColor" red="0.73725491759999995" green="0.73725491759999995" blue="0.73725491759999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <real key="NSStrokeWidth" value="0.0"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                            <fragment>
+                                                                <string key="content">Montgomery College – Rockville Campus
+</string>
+                                                                <attributes>
+                                                                    <color key="NSBackgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <color key="NSColor" red="0.73725491759999995" green="0.73725491759999995" blue="0.73725491759999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <font key="NSFont" metaFont="system" size="16"/>
+                                                                    <real key="NSKern" value="0.0"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="8" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                        <tabStops/>
+                                                                    </paragraphStyle>
+                                                                    <color key="NSStrokeColor" red="0.73725491759999995" green="0.73725491759999995" blue="0.73725491759999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <real key="NSStrokeWidth" value="0.0"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                            <fragment content="info@ignitehubmc.com">
+                                                                <attributes>
+                                                                    <color key="NSBackgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <color key="NSColor" red="0.67058825489999996" green="0.67058825489999996" blue="0.67058825489999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <font key="NSFont" metaFont="system" size="16"/>
+                                                                    <real key="NSKern" value="0.0"/>
+                                                                    <url key="NSLink" string="mailto:info@ignitehubmc.com"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                        <tabStops/>
+                                                                    </paragraphStyle>
+                                                                    <color key="NSStrokeColor" red="0.67058825489999996" green="0.67058825489999996" blue="0.67058825489999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <real key="NSStrokeWidth" value="0.0"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Follow Us:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iJy-c9-aAS">
+                                                        <rect key="frame" x="54" y="449" width="79" height="21"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vwe-QF-rhS">
+                                                        <rect key="frame" x="165" y="442" width="112" height="35"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="Youtbe BTn"/>
+                                                    </button>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CZh-dr-f6S">
+                                                        <rect key="frame" x="53" y="360" width="286" height="72"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment content="Mannakee Building">
+                                                                <attributes>
+                                                                    <color key="NSBackgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <color key="NSColor" red="0.73725491759999995" green="0.73725491759999995" blue="0.73725491759999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <font key="NSFont" metaFont="systemBold" size="16"/>
+                                                                    <real key="NSKern" value="0.0"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                        <tabStops/>
+                                                                    </paragraphStyle>
+                                                                    <color key="NSStrokeColor" red="0.73725491759999995" green="0.73725491759999995" blue="0.73725491759999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <real key="NSStrokeWidth" value="0.0"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                            <fragment>
+                                                                <string key="content">
+900 Hungerford Drive, Room 109
+Rockville, MD 20850</string>
+                                                                <attributes>
+                                                                    <color key="NSBackgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <color key="NSColor" red="0.73725491759999995" green="0.73725491759999995" blue="0.73725491759999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <font key="NSFont" metaFont="system" size="16"/>
+                                                                    <real key="NSKern" value="0.0"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                        <tabStops/>
+                                                                    </paragraphStyle>
+                                                                    <color key="NSStrokeColor" red="0.73725491759999995" green="0.73725491759999995" blue="0.73725491759999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <real key="NSStrokeWidth" value="0.0"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Dark Logo" translatesAutoresizingMaskIntoConstraints="NO" id="27o-CW-zpb">
+                                                        <rect key="frame" x="54" y="6" width="285" height="157"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </view>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="3000" id="tZk-gm-Tae"/>
+                                            <constraint firstAttribute="height" constant="3600" id="tZk-gm-Tae"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -635,6 +894,17 @@ Rockville, MD 20850</string>
                                 <viewLayoutGuide key="contentLayoutGuide" id="oyw-wh-pMw"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="OdW-5z-pbc"/>
                             </scrollView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m1d-Dg-1up">
+                                <rect key="frame" x="0.0" y="54" width="393" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <navigationItem title="IgniteHub" id="3CQ-Yj-p4g"/>
+                                </items>
+                                <navigationBarAppearance key="standardAppearance">
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </navigationBarAppearance>
+                            </navigationBar>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="LT4-8J-uvj"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -651,10 +921,13 @@ Rockville, MD 20850</string>
                         <imageReference key="selectedImage" image="person.2.fill" catalog="system" symbolScale="large"/>
                     </tabBarItem>
                     <size key="freeformSize" width="393" height="2100"/>
+                    <connections>
+                        <outlet property="navTitle" destination="3CQ-Yj-p4g" id="mMY-5D-vn0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pK4-F5-8du" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="902" y="1155"/>
+            <point key="canvasLocation" x="695" y="1155"/>
         </scene>
         <!--Calendar-->
         <scene sceneID="duk-w3-Rmx">
@@ -665,7 +938,7 @@ Rockville, MD 20850</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="F9b-u7-WeL">
-                                <rect key="frame" x="-41" y="-57" width="473" height="912"/>
+                                <rect key="frame" x="-41" y="-57" width="502" height="912"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="September 2005" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CYd-d4-skJ">
@@ -809,14 +1082,14 @@ Rockville, MD 20850</string>
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="hui-54-HSb">
                                 <rect key="frame" x="272" y="4.6666666666666679" width="87" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" systemColor="systemBlueColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Weekly"/>
                                 <connections>
                                     <segue destination="yzu-FU-F1H" kind="show" id="0Q7-wv-hzi"/>
                                 </connections>
                             </button>
-                            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="tintColor" systemColor="tintColor"/>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
@@ -1044,7 +1317,12 @@ Rockville, MD 20850</string>
                         <imageReference key="selectedImage" image="calendar" catalog="system" symbolScale="large"/>
                     </tabBarItem>
                     <navigationItem key="navigationItem" title="IgniteHub" id="khm-sg-alo">
-                        <barButtonItem key="rightBarButtonItem" title="Item" id="ixf-xt-Rsp"/>
+                        <barButtonItem key="rightBarButtonItem" title="Daily" id="ixf-xt-Rsp">
+                            <color key="tintColor" systemColor="systemBlueColor"/>
+                            <connections>
+                                <segue destination="ZII-W9-GWl" kind="show" id="1uV-bK-N21"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="blueView" destination="CG5-Zz-sb7" id="6ih-ck-VNk"/>
@@ -1056,6 +1334,165 @@ Rockville, MD 20850</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dvS-3Y-Jt0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-804" y="2092.6108374384239"/>
+        </scene>
+        <!--Daily-->
+        <scene sceneID="J6M-Kj-yJz">
+            <objects>
+                <viewController title="Daily" id="ZII-W9-GWl" customClass="DailyViewController" customModule="Ignitehub_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="heD-cF-npj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Feb 2023" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lgk-tb-Tu9">
+                                <rect key="frame" x="129.33333333333334" y="125" width="116.33333333333334" height="34"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="8NO-CG-1ON"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5NK-bQ-pGZ">
+                                <rect key="frame" x="255" y="125" width="120" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="arrowshape.right.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="nextDayAction:" destination="ZII-W9-GWl" eventType="touchUpInside" id="cfO-yf-MWh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="brb-PC-YoT">
+                                <rect key="frame" x="0.0" y="125" width="120" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="arrowshape.left.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="previousDayAction:" destination="ZII-W9-GWl" eventType="touchUpInside" id="1UI-eK-T7F"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thursday" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DdE-kc-v0D">
+                                <rect key="frame" x="146.33333333333334" y="179" width="82.333333333333343" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="k3J-Ck-akh">
+                                <rect key="frame" x="0.0" y="224" width="375" height="506"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="dayCell" rowHeight="70" id="haV-iG-Jg6" customClass="DailyCell" customModule="Ignitehub_App" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="50" width="375" height="70"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="haV-iG-Jg6" id="DF6-Qb-vRK">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lSW-Jg-DSK">
+                                                    <rect key="frame" x="10" y="5" width="80" height="30"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="80" id="VID-TQ-j0r"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E52-57-aHU">
+                                                    <rect key="frame" x="100" y="0.0" width="275" height="70"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Event 1" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0CX-yI-wnk">
+                                                            <rect key="frame" x="10" y="24.333333333333336" width="82.666666666666671" height="21.333333333333336"/>
+                                                            <color key="backgroundColor" systemColor="linkColor"/>
+                                                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Event 1" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PtW-Et-yar">
+                                                            <rect key="frame" x="96" y="24.333333333333336" width="82.333333333333314" height="21.333333333333336"/>
+                                                            <color key="backgroundColor" systemColor="linkColor"/>
+                                                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Event 1" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kEJ-Q5-StV">
+                                                            <rect key="frame" x="184" y="21.333333333333485" width="83" height="21.333333333333485"/>
+                                                            <color key="backgroundColor" systemColor="linkColor"/>
+                                                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                                    <constraints>
+                                                        <constraint firstItem="0CX-yI-wnk" firstAttribute="leading" secondItem="E52-57-aHU" secondAttribute="leading" constant="10" id="0SE-BA-Pi8"/>
+                                                        <constraint firstItem="0CX-yI-wnk" firstAttribute="centerY" secondItem="E52-57-aHU" secondAttribute="centerY" id="0of-dI-lHF"/>
+                                                        <constraint firstItem="PtW-Et-yar" firstAttribute="centerY" secondItem="0CX-yI-wnk" secondAttribute="centerY" id="11a-Oh-rki"/>
+                                                        <constraint firstItem="kEJ-Q5-StV" firstAttribute="width" secondItem="PtW-Et-yar" secondAttribute="width" multiplier="1.00405" id="4Kg-um-fMH"/>
+                                                        <constraint firstItem="PtW-Et-yar" firstAttribute="leading" secondItem="0CX-yI-wnk" secondAttribute="trailing" constant="3.3333333333333286" id="7Lk-Ot-IXp"/>
+                                                        <constraint firstItem="0CX-yI-wnk" firstAttribute="centerX" secondItem="E52-57-aHU" secondAttribute="centerX" id="9AO-th-O1h"/>
+                                                        <constraint firstItem="kEJ-Q5-StV" firstAttribute="leading" secondItem="PtW-Et-yar" secondAttribute="trailing" constant="5.6666666666666856" id="Lxy-1a-ejx"/>
+                                                        <constraint firstItem="kEJ-Q5-StV" firstAttribute="height" secondItem="PtW-Et-yar" secondAttribute="height" id="OCL-D7-ofs"/>
+                                                        <constraint firstItem="PtW-Et-yar" firstAttribute="width" secondItem="0CX-yI-wnk" secondAttribute="width" id="WBX-pb-vfM"/>
+                                                        <constraint firstItem="0CX-yI-wnk" firstAttribute="height" secondItem="E52-57-aHU" secondAttribute="height" multiplier="0.290476" constant="0.80000000000000004" id="dWg-ve-8yC"/>
+                                                        <constraint firstItem="kEJ-Q5-StV" firstAttribute="centerY" secondItem="PtW-Et-yar" secondAttribute="centerY" id="mbe-uQ-S0E"/>
+                                                        <constraint firstItem="0CX-yI-wnk" firstAttribute="width" secondItem="E52-57-aHU" secondAttribute="width" multiplier="0.3" id="no7-9P-eaf"/>
+                                                        <constraint firstItem="PtW-Et-yar" firstAttribute="height" secondItem="0CX-yI-wnk" secondAttribute="height" id="vZb-XZ-xRD"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="E52-57-aHU" firstAttribute="leading" secondItem="lSW-Jg-DSK" secondAttribute="trailing" constant="10" id="SAn-FY-tpt"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="E52-57-aHU" secondAttribute="bottom" id="5Nw-sx-yRe"/>
+                                            <constraint firstItem="lSW-Jg-DSK" firstAttribute="top" secondItem="haV-iG-Jg6" secondAttribute="top" constant="5" id="86k-c7-Owx"/>
+                                            <constraint firstItem="lSW-Jg-DSK" firstAttribute="leading" secondItem="haV-iG-Jg6" secondAttribute="leading" constant="10" id="95w-gS-hhb"/>
+                                            <constraint firstItem="E52-57-aHU" firstAttribute="top" secondItem="haV-iG-Jg6" secondAttribute="top" id="HDH-sE-lLP"/>
+                                            <constraint firstAttribute="trailing" secondItem="E52-57-aHU" secondAttribute="trailing" id="mqI-i6-5zW"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="event1" destination="0CX-yI-wnk" id="zrn-8g-cdj"/>
+                                            <outlet property="event2" destination="PtW-Et-yar" id="8I9-Wm-2S7"/>
+                                            <outlet property="event3" destination="kEJ-Q5-StV" id="42K-50-0vB"/>
+                                            <outlet property="time" destination="lSW-Jg-DSK" id="Pyo-uX-OZX"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="ZII-W9-GWl" id="Xhq-Z8-ZzR"/>
+                                    <outlet property="delegate" destination="ZII-W9-GWl" id="6H4-GL-464"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="X40-op-z56"/>
+                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                        <constraints>
+                            <constraint firstItem="X40-op-z56" firstAttribute="trailing" secondItem="k3J-Ck-akh" secondAttribute="trailing" id="9eq-ai-K7u"/>
+                            <constraint firstItem="X40-op-z56" firstAttribute="bottom" secondItem="k3J-Ck-akh" secondAttribute="bottom" id="CmP-n7-h4o"/>
+                            <constraint firstItem="k3J-Ck-akh" firstAttribute="top" secondItem="DdE-kc-v0D" secondAttribute="bottom" constant="20" id="LMj-g3-c4d"/>
+                            <constraint firstItem="DdE-kc-v0D" firstAttribute="centerX" secondItem="Lgk-tb-Tu9" secondAttribute="centerX" id="MMh-ow-7ue"/>
+                            <constraint firstItem="Lgk-tb-Tu9" firstAttribute="top" secondItem="X40-op-z56" secondAttribute="top" constant="31" id="OHP-P1-dei"/>
+                            <constraint firstItem="Lgk-tb-Tu9" firstAttribute="centerX" secondItem="X40-op-z56" secondAttribute="centerX" id="aw5-fl-rP8"/>
+                            <constraint firstItem="DdE-kc-v0D" firstAttribute="top" secondItem="Lgk-tb-Tu9" secondAttribute="bottom" constant="20" id="dyu-H0-asG"/>
+                            <constraint firstItem="k3J-Ck-akh" firstAttribute="leading" secondItem="X40-op-z56" secondAttribute="leading" id="sxI-Sw-ihd"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="ftZ-Mz-3Ss"/>
+                    <connections>
+                        <outlet property="DayLabel" destination="Lgk-tb-Tu9" id="u0n-7O-Qwm"/>
+                        <outlet property="dayOfWeekLabel" destination="DdE-kc-v0D" id="DDb-Sz-mZM"/>
+                        <outlet property="hourTableView" destination="k3J-Ck-akh" id="KDR-xs-8kb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xv4-mF-wUr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-804" y="2889.9014778325122"/>
         </scene>
         <!--Events-->
         <scene sceneID="Fv3-Dc-9Oq">
@@ -1069,15 +1506,18 @@ Rockville, MD 20850</string>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="1n3-dv-81Z">
                         <rect key="frame" x="0.0" y="50" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" red="0.095521486229999994" green="0.31439467119999998" blue="0.70799401790000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="barTintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" systemColor="systemBlueColor"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <textAttributes key="titleTextAttributes">
-                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="textColor" systemColor="systemBlueColor"/>
                         </textAttributes>
                         <textAttributes key="largeTitleTextAttributes">
-                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="textColor" systemColor="systemBlueColor"/>
                         </textAttributes>
+                        <navigationBarAppearance key="scrollEdgeAppearance">
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </navigationBarAppearance>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -1093,11 +1533,13 @@ Rockville, MD 20850</string>
         <image name="Carousel1" width="300" height="200"/>
         <image name="Carousel6" width="300" height="200"/>
         <image name="Dark Logo" width="100" height="36"/>
+        <image name="Eduardo" width="150" height="183.33332824707031"/>
         <image name="Kimberly" width="150" height="166.66667175292969"/>
         <image name="MC" width="133.33332824707031" height="78.666664123535156"/>
         <image name="MCEDCM" width="256" height="70.666664123535156"/>
         <image name="MCM" width="100" height="100"/>
         <image name="MCPS" width="256" height="45.333332061767578"/>
+        <image name="Vathany" width="150" height="183.33332824707031"/>
         <image name="arrowshape.left" catalog="system" width="128" height="104"/>
         <image name="arrowshape.left.fill" catalog="system" width="128" height="104"/>
         <image name="arrowshape.right" catalog="system" width="128" height="104"/>
@@ -1107,14 +1549,26 @@ Rockville, MD 20850</string>
         <image name="pdf1" width="515" height="666.66668701171875"/>
         <image name="pdf2" width="266.66665649414062" height="345"/>
         <image name="person.2.fill" catalog="system" width="128" height="81"/>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemBlueColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemPinkColor">
             <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tintColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

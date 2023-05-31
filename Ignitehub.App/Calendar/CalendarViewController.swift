@@ -18,6 +18,10 @@ class CalendarViewController: UIViewController, UICollectionViewDelegate, UIColl
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let logo = UIImage(named: "Dark Logo")
+        let imageView = UIImageView(image:logo)
+        self.navigationItem.titleView = imageView
+        
         refresh()
         setCellsView()
         setMonthView()

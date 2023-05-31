@@ -8,11 +8,53 @@
 import UIKit
 import AVKit
 import AVFoundation
-import QuartzCore
+import WebKit
 
 class ViewController: UIViewController {
     
+    @IBAction func playTourVideo(_ sender: UIButton) {
+        let webUrl = "https://www.youtube.com/watch?v=FpxGGc3jKAM"
+        if let url = URL(string: webUrl) {
+            if UIApplication.shared.canOpenURL(url) {
+                UIApplication.shared.open(url, options: [:], completionHandler: nil)
+            }
+        }
+    }
+    
+    @IBOutlet weak var webView: WKWebView!
+    
+    
+    @IBAction func fireSideDownload(_ sender: Any) {
+        let webUrl = "https://ignitehubmc.com/wp-content/uploads/2023/02/ignITe-Hub-Fireside-Chat-Career-Series-Spring-2023-Events-Flyer-3.pdf"
+        if let url = URL(string: webUrl) {
+            if UIApplication.shared.canOpenURL(url) {
+                UIApplication.shared.open(url, options: [:], completionHandler: nil)
+            }
+        }
+    }
+    
+    @IBAction func careerSiteDownload(_ sender: Any) {
+        let webUrl = "https://ignitehubmc.com/wp-content/uploads/2023/02/ignITe-Hub-Future-of-Tech-Spring-2023-Flyer-4.pdf"
+        if let url = URL(string: webUrl) {
+            if UIApplication.shared.canOpenURL(url) {
+                UIApplication.shared.open(url, options: [:], completionHandler: nil)
+            }
+        }
+    }
+    
+    @IBAction func toYoutube(_ sender: UIButton) {
+        let webUrl = "https://www.youtube.com/channel/UC4HmlgF7F0qxN5bIqjKgCTQ"
+        if let url = URL(string: webUrl) {
+            if UIApplication.shared.canOpenURL(url) {
+                UIApplication.shared.open(url, options: [:], completionHandler: nil)
+            }
+        }
+    }
+    
+    var playerViewController: AVPlayerViewController?
+    
     @IBOutlet weak var carouselView: Carousel!
+    @IBOutlet weak var navTitle: UINavigationItem!
     
     let carouselImages : [UIImage] = [
         UIImage(named: "Carousel1")!,
@@ -37,10 +79,6 @@ class ViewController: UIViewController {
           bluewView.layer.insertSublayer(backgroundLayer!, at: 0)
     }
     
-    @IBAction func virtualTour(_ sender: UIButton) {
-
-    }
-    
     lazy var carousel = Carousel(frame: .zero, carouselImages: carouselImages)
     
     let strings = String.Localized.self
@@ -48,14 +86,32 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        setNavTitle()
+        getVideo()
+        
         igniteLabel.layer.backgroundColor  = UIColor.white.cgColor
         igniteLabel.layer.cornerRadius = 10
         igniteLabel.layer.masksToBounds = true
-        
+    
         refresh()
         setUpHierarchy()
         setUpComponents()
         setUpConstraints()
+    }
+    
+    func setNavTitle() {
+        let logo = UIImage(named: "Dark Logo")
+        let imageView = UIImageView(image:logo)
+        navTitle.titleView = imageView
+    }
+    
+    func getVideo() {
+        let videoId = "esGnhEDICyo"
+        let urlString = "https://www.youtube.com/embed/\(videoId)"
+        if let url = URL(string: urlString) {
+            let request = URLRequest(url: url)
+            webView.load(request)
+        }
     }
     
     func getData(from url: URL, completion: @escaping (Data?, URLResponse?, Error?) -> ()) {
