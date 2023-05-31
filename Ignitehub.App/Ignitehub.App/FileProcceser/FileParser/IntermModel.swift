@@ -7,8 +7,11 @@
 
 import Foundation
 
+//
+// Contains model to hold the directly extracted string data
+//
 
-//Model to hold the directly extracted string data
+
 struct StringData {
     var dtstart: String;
     var dtend: String;
