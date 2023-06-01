@@ -67,7 +67,22 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var bluewView: UIView!
     @IBOutlet weak var empowerView: UIView!
+    
+    
     @IBOutlet weak var igniteLabel: UILabel!
+    @IBOutlet weak var igniteDesc: UILabel!
+    @IBOutlet weak var tourBtn: UIButton!
+    @IBOutlet weak var speakerTitle: UILabel!
+    @IBOutlet weak var firechatLabel: UILabel!
+    @IBOutlet weak var download1Btn: UIButton!
+    @IBOutlet weak var futureLabel: UILabel!
+    @IBOutlet weak var download2Btn: UIButton!
+    @IBOutlet weak var empowerLabel: UILabel!
+    @IBOutlet weak var inputBtn: UIButton!
+    @IBOutlet weak var partnerTitle: UILabel!
+    
+    
+    @IBOutlet weak var followLabel: UILabel!
     
     let colors = Colors()
     let colors2 = Colors()

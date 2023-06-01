@@ -18,6 +18,14 @@ class WeeklyViewController: UIViewController, UICollectionViewDelegate, UICollec
     
     var totalSquares = [Date]()
     
+    @IBSegueAction func showDetails(_ coder: NSCoder, sender: Any?) -> EventDetailsViewController? {
+        if let cell = sender as? EventCell, let indexPath = tableView.indexPath(for: cell) {
+            
+            let event = Event().eventsForDate(date: selectedDate)[indexPath.row]
+            return EventDetailsViewController(coder: coder, event: event)
+        } else {
+            return EventDetailsViewController(coder: coder, event: nil)
+        }    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,11 +44,17 @@ class WeeklyViewController: UIViewController, UICollectionViewDelegate, UICollec
         var backgroundLayer = colors.gl
         backgroundLayer!.frame = blueView.frame
         blueView.layer.insertSublayer(backgroundLayer!, at: 0)
-  }
+    }
     
     func setCellsView ()
     {
-        let width = (collectionView.frame.size.width - 2) / 7
+        
+        var width = (collectionView.frame.size.width - 2) / 8
+
+        if(UIScreen.main.bounds.width > 390) {
+            width = (collectionView.frame.size.width - 2) / 7
+        }
+        
         let height = (collectionView.frame.size.height - 2) 
         
         let flowLayout = collectionView.collectionViewLayout as! UICollectionViewFlowLayout
@@ -120,6 +134,6 @@ class WeeklyViewController: UIViewController, UICollectionViewDelegate, UICollec
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        tableView.reloadData()
+        setWeekView()
     }
 }

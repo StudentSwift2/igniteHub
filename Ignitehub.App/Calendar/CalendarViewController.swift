@@ -14,7 +14,7 @@ class CalendarViewController: UIViewController, UICollectionViewDelegate, UIColl
     @IBOutlet weak var blueView: UIView!
     
     var selectedDate = Date()
-    var totalSquares = [String]()
+    var totalSquares = [CalendarDay]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,13 +33,17 @@ class CalendarViewController: UIViewController, UICollectionViewDelegate, UIColl
         let backgroundLayer = colors.gl
         backgroundLayer!.frame = blueView.frame
         blueView.layer.insertSublayer(backgroundLayer!, at: 0)
-  }
+    }
     
     func setCellsView ()
     {
-        let width = (collectionView.frame.size.width - 2) / 7
-        let height = (collectionView.frame.size.height - 2) / 8
+        var width = (collectionView.frame.size.width - 2) / 8
+
+        if(UIScreen.main.bounds.width > 390) {
+            width = (collectionView.frame.size.width - 2) / 7
+        }
         
+        let height = (collectionView.frame.size.height - 2) / 6
         let flowLayout = collectionView.collectionViewLayout as! UICollectionViewFlowLayout
         flowLayout.itemSize = CGSize(width: width, height: height)
     }
@@ -54,12 +58,23 @@ class CalendarViewController: UIViewController, UICollectionViewDelegate, UIColl
         
         var count : Int = 1
         
+        let prevMonth = CalendarHelper().minusMonth(date: selectedDate)
+        let daysInPrevMonth = CalendarHelper().daysInMonth(date: prevMonth)
+        
         while(count <= 42) {
-            if(count <= startingSpaces || count - startingSpaces > daysInMonth) {
-                totalSquares.append("")
+            let calendarDay = CalendarDay()
+            if(count <= startingSpaces) {
+                let prevMonthDay = daysInPrevMonth - startingSpaces + count
+                calendarDay.day = String(prevMonthDay)
+                calendarDay.month = CalendarDay.Month.previous
+            } else if count - startingSpaces > daysInMonth {
+                calendarDay.day = String(count - daysInMonth - startingSpaces)
+                calendarDay.month = CalendarDay.Month.next
             } else {
-                totalSquares.append(String(count - startingSpaces))
+                calendarDay.day = String(count - startingSpaces)
+                calendarDay.month = CalendarDay.Month.current
             }
+            totalSquares.append(calendarDay)
             count += 1
         }
         
@@ -74,7 +89,29 @@ class CalendarViewController: UIViewController, UICollectionViewDelegate, UIColl
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "calCell", for: indexPath) as! CalendarCell
         
-        cell.dayOfMonth.text = totalSquares[indexPath.item]
+        let calendarDay = totalSquares[indexPath.item]
+        
+        cell.dayOfMonth.text = calendarDay.day
+        
+        let formatter = DateFormatter()
+        let stringDate = "\(String(describing: calendarDay.day))/\(CalendarHelper().monthString(date: selectedDate))/\(CalendarHelper().yearString(date: selectedDate))"
+        formatter.dateFormat = "dd/MM/yy"
+
+        //        if(Event().eventsForDate(date: ).count > 0)
+//        {
+//            cell.backgroundColor = UIColor.systemCyan
+//        }
+//        else
+//        {
+//            cell.backgroundColor = UIColor.white
+//        }
+        
+        if(calendarDay.month == CalendarDay.Month.current)
+        {
+            cell.dayOfMonth.textColor = UIColor.black
+        } else {
+            cell.dayOfMonth.textColor = UIColor.gray
+        }
         
         return cell
     }
@@ -91,6 +128,11 @@ class CalendarViewController: UIViewController, UICollectionViewDelegate, UIColl
     
     override var shouldAutorotate: Bool {
         return false
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        setMonthView()
     }
     
 }

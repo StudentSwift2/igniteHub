@@ -55,6 +55,12 @@ class CalendarHelper {
         return component.day!
     }
     
+    func hoursFromDate(date:Date) -> Int
+    {
+        let component = calendar.dateComponents([.hour], from: date)
+        return component.hour!
+    }
+    
     func firstOfMonth(date:Date) -> Date
     {
         let component = calendar.dateComponents([.year, .month], from: date)

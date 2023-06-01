@@ -10,7 +10,7 @@ import AVFoundation
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    var restrictRotation:UIInterfaceOrientationMask = .portrait
     // MARK: UISceneSession Lifecycle
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
@@ -22,6 +22,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 print("Setting category to AVAudioSessionCategoryPlayback failed.")
             }
             return true
+    }
+    
+    func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
+        return self.restrictRotation
     }
     
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {

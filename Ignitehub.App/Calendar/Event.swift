@@ -42,4 +42,20 @@ class Event {
         return daysEvents
     }
     
+    func eventsForDateAndTime(date: Date, hour: Int) -> [Event]
+    {
+        var daysEvents = [Event]()
+
+        for event in eventsList
+        {
+            if(Calendar.current.isDate(event.startDate, inSameDayAs: date)) {
+                let eventHour = CalendarHelper().hoursFromDate(date: event.startDate)
+                if eventHour == hour {
+                    daysEvents.append(event)
+                }
+            }
+        }
+        return daysEvents
+    }
+    
 }
