@@ -17,7 +17,7 @@
                BlueprintIdentifier = "7449D0EF2A029CA5003BEDBF"
                BuildableName = "Ignitehub.App.app"
                BlueprintName = "Ignitehub.App"
-               ReferencedContainer = "container:Ignitehub.App.xcodeproj">
+               ReferencedContainer = "container:Ignitehub.App 2.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,7 +33,6 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = "en"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -47,7 +46,7 @@
             BlueprintIdentifier = "7449D0EF2A029CA5003BEDBF"
             BuildableName = "Ignitehub.App.app"
             BlueprintName = "Ignitehub.App"
-            ReferencedContainer = "container:Ignitehub.App.xcodeproj">
+            ReferencedContainer = "container:Ignitehub.App 2.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -64,7 +63,7 @@
             BlueprintIdentifier = "7449D0EF2A029CA5003BEDBF"
             BuildableName = "Ignitehub.App.app"
             BlueprintName = "Ignitehub.App"
-            ReferencedContainer = "container:Ignitehub.App.xcodeproj">
+            ReferencedContainer = "container:Ignitehub.App 2.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -100,15 +100,10 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-<<<<<<< HEAD:Ignitehub.App/Ignitehub.App/ViewController.swift
-        let events = FileProccesser.getIgniteHubCalerderData();
+                let events = FileProccesser.getIgniteHubCalerderData();
         if let events = events { eventsList = events }
-=======
         setNavTitle()
-        getVideo()
->>>>>>> fileProcceserMerge:Ignitehub.App/ViewController.swift
-        
+        getVideo()        
         igniteLabel.layer.backgroundColor  = UIColor.white.cgColor
         igniteLabel.layer.cornerRadius = 10
         igniteLabel.layer.masksToBounds = true
