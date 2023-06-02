@@ -8,9 +8,9 @@
 import Foundation
 
 var eventsList : [Event] = [Event(id: 343434, name: "Testing", startDate: Date(), endDate: Date(), description: "Just a test"),
-                            Event(id: 343434333, name: "Test 2", startDate: CalendarHelper().addDays(date: CalendarHelper().firstOfMonth(date: Date()), days: 12) , endDate: CalendarHelper().addDays(date: CalendarHelper().firstOfMonth(date: Date()), days: 12), description: "Something")
+    Event(id: 343434333, name: "Test 2", startDate: CalendarHelper().addDays(date: CalendarHelper().firstOfMonth(date: Date()), days: 12) , endDate: CalendarHelper().addDays(date: CalendarHelper().firstOfMonth(date: Date()), days: 12), description: "Something \nSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomething \n SomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethin \n gSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomething"),
+    
 ]
-
 class Event {
     var id: Int!
     var name: String!
@@ -29,6 +29,15 @@ class Event {
         self.startDate = startDate
         self.endDate = endDate
         self.description = description
+    }
+    
+    init(id: Int!, name: String!, startDate: Date!, endDate: Date!, description: String!, url: URL) {
+        self.id = id
+        self.name = name
+        self.startDate = startDate
+        self.endDate = endDate
+        self.description = description
+        self.url = url
     }
     
     func eventsForDate(date: Date) -> [Event]

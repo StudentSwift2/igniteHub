@@ -41,7 +41,7 @@ class EventDetailsViewController: UIViewController {
         if let url = event.url {
             urlLabel.text = "URL: " + url.absoluteString
         }
-        descriptionLabel.text = strings.descriptionLabel + event.description
+        descriptionLabel.text = "\(strings.descriptionLabel) \n \(event.description!)"
     }
     
     func setNavTitle() {
