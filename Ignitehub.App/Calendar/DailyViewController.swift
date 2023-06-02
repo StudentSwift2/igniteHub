@@ -35,6 +35,17 @@ class DailyViewController: UIViewController, UITableViewDelegate, UITableViewDat
         blueView.layer.insertSublayer(backgroundLayer!, at: 0)
   }
     
+    @IBSegueAction func showDetails(_ coder: NSCoder, sender: Any?) -> EventDetailsViewController? {
+        if let cell = sender as? DailyCell, let indexPath = hourTableView.indexPath(for: cell){
+            let hour = hours[indexPath.row]
+            let event = Event().eventsForDateAndTime(date: selectedDate, hour: hour)[0]
+            return EventDetailsViewController(coder: coder, event: event)
+        } else {
+            return EventDetailsViewController(coder: coder, event: nil)
+        }
+    }
+    
+    
     func initTime() {
         for hour in 9 ... 15
         {

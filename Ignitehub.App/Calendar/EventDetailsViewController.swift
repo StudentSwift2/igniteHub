@@ -32,7 +32,6 @@ class EventDetailsViewController: UIViewController {
         }
     }
     
-    
     var event : Event
     
     init?(coder: NSCoder, event: Event?) {

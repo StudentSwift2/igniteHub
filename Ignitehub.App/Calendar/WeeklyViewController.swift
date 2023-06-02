@@ -25,7 +25,9 @@ class WeeklyViewController: UIViewController, UICollectionViewDelegate, UICollec
             return EventDetailsViewController(coder: coder, event: event)
         } else {
             return EventDetailsViewController(coder: coder, event: nil)
-        }    }
+        }
+        
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
