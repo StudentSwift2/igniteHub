@@ -89,14 +89,31 @@ class WeeklyViewController: UIViewController, UICollectionViewDelegate, UICollec
         
         let date = totalSquares[indexPath.item]
         cell.dayOfMonth.text = String(CalendarHelper().daysOfMonth(date: date))
-        
+        var white = false
         if(date == selectedDate)
         {
             cell.backgroundColor = UIColor.systemCyan
+            cell.dayOfMonth.textColor = UIColor.white
+            white = true
+        } else if(Event().eventsForDate(date: date).count > 0) {
+            cell.backgroundColor = UIColor(red: 0.77, green: 0.87, blue: 0.96, alpha: 1.00)
+            cell.dayOfMonth.textColor = UIColor.white
+            white = true
         }
         else
         {
             cell.backgroundColor = UIColor.white
+            cell.dayOfMonth.textColor = UIColor.black
+        }
+        
+        if(CalendarHelper().getMonth(date: date) == CalendarHelper().getMonth(date: selectedDate)) {
+            if(white) {
+                cell.dayOfMonth.textColor = UIColor.white
+            } else {
+                cell.dayOfMonth.textColor = UIColor.black
+            }
+        } else {
+            cell.dayOfMonth.textColor = UIColor.lightGray
         }
         
         return cell

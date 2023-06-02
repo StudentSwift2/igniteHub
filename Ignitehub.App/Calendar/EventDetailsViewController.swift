@@ -14,8 +14,14 @@ class EventDetailsViewController: UIViewController {
     @IBOutlet weak var dateLabel: UILabel!
     @IBOutlet weak var hoursLabel: UILabel!
     @IBOutlet weak var urlLabel: UILabel!
-    @IBOutlet weak var descriptionLabel: UILabel!
+    @IBOutlet weak var descriptionTitle: UILabel!
+    @IBOutlet weak var descriptionView: UITextView!
     @IBOutlet weak var blueView: UIView!
+    
+    @IBOutlet weak var dateInfo: UILabel!
+    @IBOutlet weak var hoursInfo: UILabel!
+    @IBOutlet weak var urlInfo: UILabel!
+    
     
     var event : Event
     
@@ -36,12 +42,19 @@ class EventDetailsViewController: UIViewController {
         setNavTitle()
 
         titleLabel.text = event.name
-        dateLabel.text = strings.dateLabel +  CalendarHelper().timeString(date: event.startDate!)
-        hoursLabel.text = strings.hoursLabel +  CalendarHelper().timeString(date: event.endDate!)
+        dateLabel.text = strings.dateLabel
+        dateInfo.text = CalendarHelper().monthDayString(date: event.startDate!)
+        
+        hoursLabel.text = strings.hoursLabel
+        hoursInfo.text = "\(CalendarHelper().timeString(date: event.startDate!)) - \(CalendarHelper().timeString(date: event.endDate!))"
+        
+        urlLabel.text = "URL: "
         if let url = event.url {
-            urlLabel.text = "URL: " + url.absoluteString
+            urlInfo.text = url.absoluteString
         }
-        descriptionLabel.text = "\(strings.descriptionLabel) \n \(event.description!)"
+        
+        descriptionTitle.text = strings.descriptionLabel
+        descriptionView.text = event.description!
     }
     
     func setNavTitle() {

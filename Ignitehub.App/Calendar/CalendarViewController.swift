@@ -92,6 +92,7 @@ class CalendarViewController: UIViewController, UICollectionViewDelegate, UIColl
         
         let calendarDay = totalSquares[indexPath.item]
         cell.dayOfMonth.text = calendarDay.day
+        cell.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(tap(_:))))
         let day = Int(calendarDay.day)!
         let date = CalendarHelper().addDays(date: CalendarHelper().firstOfMonth(date: selectedDate), days: day-1)
         if(Event().eventsForDate(date: date).count > 0 && calendarDay.month == CalendarDay.Month.current)
@@ -111,6 +112,10 @@ class CalendarViewController: UIViewController, UICollectionViewDelegate, UIColl
         }
         
         return cell
+    }
+    
+    @objc func tap(_ sender: UITapGestureRecognizer) {
+        performSegue(withIdentifier: "toWeek", sender: nil)
     }
     
     @IBAction func prevMonth(_ sender: Any) {
