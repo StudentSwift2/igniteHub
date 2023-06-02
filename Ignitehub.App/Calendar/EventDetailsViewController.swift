@@ -9,6 +9,7 @@ import UIKit
 
 class EventDetailsViewController: UIViewController {
 
+    @IBOutlet weak var navTitle: UINavigationItem!
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var dateLabel: UILabel!
     @IBOutlet weak var hoursLabel: UILabel!
@@ -32,7 +33,8 @@ class EventDetailsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         refresh()
-        
+        setNavTitle()
+
         titleLabel.text = event.name
         dateLabel.text = strings.dateLabel +  CalendarHelper().timeString(date: event.startDate!)
         hoursLabel.text = strings.hoursLabel +  CalendarHelper().timeString(date: event.endDate!)
@@ -40,6 +42,12 @@ class EventDetailsViewController: UIViewController {
             urlLabel.text = "URL: " + url.absoluteString
         }
         descriptionLabel.text = strings.descriptionLabel + event.description
+    }
+    
+    func setNavTitle() {
+        let logo = UIImage(named: "Dark Logo")
+        let imageView = UIImageView(image:logo)
+        navTitle.titleView = imageView
     }
     
     func refresh() {
