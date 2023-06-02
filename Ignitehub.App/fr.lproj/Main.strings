@@ -1,0 +1,381 @@
+
+/* Class = "UILabel"; text = "Event 1"; ObjectID = "0CX-yI-wnk"; */
+"0CX-yI-wnk.text" = "Event 1";
+
+/* Class = "UIButton"; configuration.title = "SHARE YOUR IMPUT NOW! ->"; ObjectID = "0gi-qg-vXF"; */
+"0gi-qg-vXF.configuration.title" = "SHARE YOUR IMPUT NOW! ->";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "0gi-qg-vXF"; */
+"0gi-qg-vXF.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "0rH-ev-p7U"; */
+"0rH-ev-p7U.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Mannakee Building"; ObjectID = "0zA-7l-TTd"; */
+"0zA-7l-TTd.text" = "Mannakee Building";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "1Ij-Nu-Uqw"; */
+"1Ij-Nu-Uqw.text" = "Title";
+
+/* Class = "UIViewController"; title = "Calendar"; ObjectID = "1LO-lv-ZBs"; */
+"1LO-lv-ZBs.title" = "Calendar";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "1ox-b0-KkH"; */
+"1ox-b0-KkH.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "DOWNLOAD (PDF) ->"; ObjectID = "29X-3F-TaB"; */
+"29X-3F-TaB.configuration.title" = "DOWNLOAD (PDF) ->";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "29X-3F-TaB"; */
+"29X-3F-TaB.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "MISSION"; ObjectID = "2C7-7f-TwP"; */
+"2C7-7f-TwP.text" = "MISSION";
+
+/* Class = "UILabel"; text = "Follow Us:"; ObjectID = "2Su-Jh-oH2"; */
+"2Su-Jh-oH2.text" = "Follow Us:";
+
+/* Class = "UILabel"; text = "A collaborative space created to ignite and inspire innovation in Montgomery County"; ObjectID = "2ZO-AL-pHl"; */
+"2ZO-AL-pHl.text" = "A collaborative space created to ignite and inspire innovation in Montgomery County";
+
+/* Class = "UINavigationItem"; title = "IgniteHub"; ObjectID = "3CQ-Yj-p4g"; */
+"3CQ-Yj-p4g.title" = "IgniteHub";
+
+/* Class = "UILabel"; text = "Sun"; ObjectID = "3Dn-cg-PEG"; */
+"3Dn-cg-PEG.text" = "Sun";
+
+/* Class = "UILabel"; text = "Mon"; ObjectID = "46L-Za-diW"; */
+"46L-Za-diW.text" = "Mon";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "4WZ-34-T92"; */
+"4WZ-34-T92.text" = "1";
+
+/* Class = "UILabel"; text = "Kimberly Bloch-Rincan"; ObjectID = "4db-nn-jZq"; */
+"4db-nn-jZq.text" = "Kimberly Bloch-Rincan";
+
+/* Class = "UILabel"; text = "Kimberly Bloch-Rincan is a community organizer with over 20 years of experience in education/training and community outreach in the non-profit and educational sectors. She is the inaugural Director for the ignITe Hub which is a brand new initiative between MC, MCPS, Montgomery County Economic Development Council, and the County Government that will advance equitable access to STEM/IT careers for underrepresented students and promote local entrepreneurship opportunities in 21st century technology-learning environment.\n\n\n"; ObjectID = "4kr-1d-sbL"; */
+"4kr-1d-sbL.text" = "Kimberly Bloch-Rincan is a community organizer with over 20 years of experience in education/training and community outreach in the non-profit and educational sectors. She is the inaugural Director for the ignITe Hub which is a brand new initiative between MC, MCPS, Montgomery County Economic Development Council, and the County Government that will advance equitable access to STEM/IT careers for underrepresented students and promote local entrepreneurship opportunities in 21st century technology-learning environment.\n\n\n";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "5NK-bQ-pGZ"; */
+"5NK-bQ-pGZ.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Plain 2023 Speakers Series"; ObjectID = "5W4-Wk-jum"; */
+"5W4-Wk-jum.text" = "Plain 2023 Speakers Series";
+
+/* Class = "UILabel"; text = "Hours:Start - End"; ObjectID = "7wS-QT-TPQ"; */
+"7wS-QT-TPQ.text" = "Hours:Start - End";
+
+/* Class = "UILabel"; text = "Director, ignITe Hub"; ObjectID = "8FB-6j-4Tm"; */
+"8FB-6j-4Tm.text" = "Director, ignITe Hub";
+
+/* Class = "UILabel"; text = "Mannakee Building"; ObjectID = "8Xm-rQ-5VM"; */
+"8Xm-rQ-5VM.text" = "Mannakee Building";
+
+/* Class = "UILabel"; text = "Staff"; ObjectID = "9MB-tQ-UYr"; */
+"9MB-tQ-UYr.text" = "Staff";
+
+/* Class = "UIBarButtonItem"; title = "Weekly"; ObjectID = "Ale-bc-EjR"; */
+"Ale-bc-EjR.title" = "Weekly";
+
+/* Class = "UILabel"; text = "URL:"; ObjectID = "B3R-DA-jX6"; */
+"B3R-DA-jX6.text" = "URL:";
+
+/* Class = "UIButton"; configuration.title = "TAKE A 360 VIRTUAL TOUR ->"; ObjectID = "B7B-E3-Ce9"; */
+"B7B-E3-Ce9.configuration.title" = "TAKE A 360 VIRTUAL TOUR ->";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "B7B-E3-Ce9"; */
+"B7B-E3-Ce9.normalTitle" = "Button";
+
+/* Class = "UIViewController"; title = "Home"; ObjectID = "BYZ-38-t0r"; */
+"BYZ-38-t0r.title" = "Home";
+
+/* Class = "UILabel"; text = "Vathany Say\n"; ObjectID = "CCv-wj-iYP"; */
+"CCv-wj-iYP.text" = "Vathany Say\n";
+
+/* Class = "UILabel"; text = "September 2005"; ObjectID = "CYd-d4-skJ"; */
+"CYd-d4-skJ.text" = "September 2005";
+
+/* Class = "UIViewController"; title = "Resoureces"; ObjectID = "ClT-8l-iCV"; */
+"ClT-8l-iCV.title" = "Resoureces";
+
+/* Class = "UIViewController"; title = "About"; ObjectID = "CnY-ld-93N"; */
+"CnY-ld-93N.title" = "About";
+
+/* Class = "UILabel"; text = "Thursday"; ObjectID = "DdE-kc-v0D"; */
+"DdE-kc-v0D.text" = "Thursday";
+
+/* Class = "UILabel"; text = "Fri"; ObjectID = "DwK-sF-Kvf"; */
+"DwK-sF-Kvf.text" = "Fri";
+
+/* Class = "UIButton"; configuration.title = "Montgomery Can Code Instructor"; ObjectID = "Eeh-z0-dUY"; */
+"Eeh-z0-dUY.configuration.title" = "Montgomery Can Code Instructor";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Eeh-z0-dUY"; */
+"Eeh-z0-dUY.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Fireside Chat Career Series \n"; ObjectID = "FMT-wo-npH"; */
+"FMT-wo-npH.configuration.title" = "Fireside Chat Career Series \n";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "FMT-wo-npH"; */
+"FMT-wo-npH.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "FjF-7C-CcZ"; */
+"FjF-7C-CcZ.text" = "1";
+
+/* Class = "UILabel"; text = "Follow Us:"; ObjectID = "Gxz-c7-Br4"; */
+"Gxz-c7-Br4.text" = "Follow Us:";
+
+/* Class = "UILabel"; text = "Description:"; ObjectID = "IbL-H7-pGY"; */
+"IbL-H7-pGY.text" = "Description:";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Iq5-Ew-yke"; */
+"Iq5-Ew-yke.normalTitle" = "Button";
+
+/* Class = "UINavigationItem"; title = "IgniteHub"; ObjectID = "IwH-M4-f6R"; */
+"IwH-M4-f6R.title" = "IgniteHub";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "KBy-Mx-2st"; */
+"KBy-Mx-2st.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Thur"; ObjectID = "Kd3-VW-H2y"; */
+"Kd3-VW-H2y.text" = "Thur";
+
+/* Class = "UILabel"; text = "Tue"; ObjectID = "Kfm-Cz-hAx"; */
+"Kfm-Cz-hAx.text" = "Tue";
+
+/* Class = "UILabel"; text = "A PROGRAM THAT PREPARES FOR TOMORROW TODAY"; ObjectID = "KiQ-0S-Djk"; */
+"KiQ-0S-Djk.text" = "A PROGRAM THAT PREPARES FOR TOMORROW TODAY";
+
+/* Class = "UILabel"; text = "Hours (Fall 2022):"; ObjectID = "LEt-PF-uzh"; */
+"LEt-PF-uzh.text" = "Hours (Fall 2022):";
+
+/* Class = "UILabel"; text = "Feb 2023"; ObjectID = "Lgk-tb-Tu9"; */
+"Lgk-tb-Tu9.text" = "Feb 2023";
+
+/* Class = "UILabel"; text = "Montgomery College – Rockville Campus\ninfo@ignitehubmc.com"; ObjectID = "MJt-SL-8rd"; */
+"MJt-SL-8rd.text" = "Montgomery College – Rockville Campus\ninfo@ignitehubmc.com";
+
+/* Class = "UIButton"; configuration.title = "Explore Careers at National Security Agency"; ObjectID = "MfA-zK-Re9"; */
+"MfA-zK-Re9.configuration.title" = "Explore Careers at National Security Agency";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "MfA-zK-Re9"; */
+"MfA-zK-Re9.normalTitle" = "Button";
+
+/* Class = "UITabBarItem"; title = "Events"; ObjectID = "NMt-Dc-hI6"; */
+"NMt-Dc-hI6.title" = "Events";
+
+/* Class = "UITabBarItem"; title = "Resources"; ObjectID = "NRq-5W-ejp"; */
+"NRq-5W-ejp.title" = "Ressources";
+
+/* Class = "UILabel"; text = "A vibrant, hybrid collaborative environment with cutting-edge Apple technology to learn, innovate, solve community problems, spur entrepreneurship, spark career interests and deepen the community’s tech talent in Montgomery County. \n\n"; ObjectID = "NuP-OT-fqO"; */
+"NuP-OT-fqO.text" = "A vibrant, hybrid collaborative environment with cutting-edge Apple technology to learn, innovate, solve community problems, spur entrepreneurship, spark career interests and deepen the community’s tech talent in Montgomery County. \n\n";
+
+/* Class = "UILabel"; text = "Lab Coordinator\n\n"; ObjectID = "O7z-xz-MCR"; */
+"O7z-xz-MCR.text" = "Lab Coordinator\n\n";
+
+/* Class = "UILabel"; text = "Job & Internship Opportunities"; ObjectID = "OOx-Ih-goi"; */
+"OOx-Ih-goi.text" = "Job & Internship Opportunities";
+
+/* Class = "UIButton"; configuration.title = "Future of Tech Lunch & Learn Series "; ObjectID = "PEa-xE-RWd"; */
+"PEa-xE-RWd.configuration.title" = "Future of Tech Lunch & Learn Series ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "PEa-xE-RWd"; */
+"PEa-xE-RWd.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Event 1"; ObjectID = "PtW-Et-yar"; */
+"PtW-Et-yar.text" = "Event 1";
+
+/* Class = "UILabel"; text = "IgnITe Hub"; ObjectID = "Qyn-ws-AiH"; */
+"Qyn-ws-AiH.text" = "IgnITe Hub";
+
+/* Class = "UILabel"; text = "IgnITe Hub"; ObjectID = "RHN-1F-ga0"; */
+"RHN-1F-ga0.text" = "IgnITe Hub";
+
+/* Class = "UILabel"; text = "ignITe Hub Fireside Chat Career Series\n"; ObjectID = "S40-AQ-tXR"; */
+"S40-AQ-tXR.text" = "ignITe Hub Fireside Chat Career Series\n";
+
+/* Class = "UILabel"; text = "ignITe Hub Future of Techology Career Series\n"; ObjectID = "TuM-Tl-Ghx"; */
+"TuM-Tl-Ghx.text" = "ignITe Hub Future of Techology Career Series\n";
+
+/* Class = "UILabel"; text = "Tue"; ObjectID = "TvF-9l-6cC"; */
+"TvF-9l-6cC.text" = "Tue";
+
+/* Class = "UILabel"; text = "Wed"; ObjectID = "UUf-An-Tpz"; */
+"UUf-An-Tpz.text" = "Wed";
+
+/* Class = "UIButton"; configuration.title = "Youtbe BTn"; ObjectID = "Vwe-QF-rhS"; */
+"Vwe-QF-rhS.configuration.title" = "Youtbe BTn";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Vwe-QF-rhS"; */
+"Vwe-QF-rhS.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "900 Hungerford Drive, Room 109\nRockville, MD 20850"; ObjectID = "WMb-5l-FdF"; */
+"WMb-5l-FdF.text" = "900 Hungerford Drive, Room 109\nRockville, MD 20850";
+
+/* Class = "UILabel"; text = "900 Hungerford Drive, Room 109\nRockville, MD 20850"; ObjectID = "YQ1-jk-BeL"; */
+"YQ1-jk-BeL.text" = "900 Hungerford Drive, Room 109\nRockville, MD 20850";
+
+/* Class = "UILabel"; text = "Wed"; ObjectID = "Yot-0Y-a6n"; */
+"Yot-0Y-a6n.text" = "Wed";
+
+/* Class = "UILabel"; text = "Resources"; ObjectID = "Ypd-XA-DXL"; */
+"Ypd-XA-DXL.text" = "Resources";
+
+/* Class = "UIButton"; configuration.title = "Youtbe BTn"; ObjectID = "ZHj-r5-3Yl"; */
+"ZHj-r5-3Yl.configuration.title" = "Youtbe BTn";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ZHj-r5-3Yl"; */
+"ZHj-r5-3Yl.normalTitle" = "Button";
+
+/* Class = "UIViewController"; title = "Daily"; ObjectID = "ZII-W9-GWl"; */
+"ZII-W9-GWl.title" = "Daily";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "brb-PC-YoT"; */
+"brb-PC-YoT.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Monday–Friday: 9 a.m.–3 p.m.\nSaturdays: Special Events Only "; ObjectID = "cDO-QS-qyN"; */
+"cDO-QS-qyN.text" = "Monday–Friday: 9 a.m.–3 p.m.\nSaturdays: Special Events Only ";
+
+/* Class = "UILabel"; text = "Mon"; ObjectID = "cTh-xf-liR"; */
+"cTh-xf-liR.text" = "Mon";
+
+/* Class = "UILabel"; text = "Eduardo Noboa"; ObjectID = "ct9-fc-UfV"; */
+"ct9-fc-UfV.text" = "Eduardo Noboa";
+
+/* Class = "UILabel"; text = "Montgomery College – Rockville Campus\ninfo@ignitehubmc.com"; ObjectID = "dKe-d0-c1d"; */
+"dKe-d0-c1d.text" = "Montgomery College – Rockville Campus\ninfo@ignitehubmc.com";
+
+/* Class = "UILabel"; text = "Date:"; ObjectID = "eDi-Fn-Shp"; */
+"eDi-Fn-Shp.text" = "Date:";
+
+/* Class = "UILabel"; text = "Thur"; ObjectID = "eq1-RD-3aP"; */
+"eq1-RD-3aP.text" = "Thur";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "fzi-Cs-Xyv"; */
+"fzi-Cs-Xyv.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Fri"; ObjectID = "hPp-f1-fmH"; */
+"hPp-f1-fmH.text" = "Fri";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "hSX-1F-CUA"; */
+"hSX-1F-CUA.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Feb 2023"; ObjectID = "hee-vE-JaN"; */
+"hee-vE-JaN.text" = "Feb 2023";
+
+/* Class = "UIButton"; configuration.title = "Weekly"; ObjectID = "hui-54-HSb"; */
+"hui-54-HSb.configuration.title" = "Weekly";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "hui-54-HSb"; */
+"hui-54-HSb.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Follow Us:"; ObjectID = "iJy-c9-aAS"; */
+"iJy-c9-aAS.text" = "Follow Us:";
+
+/* Class = "UILabel"; text = "Video Archives"; ObjectID = "ihP-f0-vb4"; */
+"ihP-f0-vb4.text" = "Video Archives";
+
+/* Class = "UIButton"; configuration.title = "Button"; ObjectID = "imr-Vn-voM"; */
+"imr-Vn-voM.configuration.title" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "imr-Vn-voM"; */
+"imr-Vn-voM.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "To develop digitally empowered individuals in untapped populations in order to access opportunities and thrive in the tech industry that will transform the world. We are committed to providing equity-focused programming centered on IT education, training, career and entrepreneurship pathways to ensure an inclusive tech workforce and economic mobility in Montgomery County. \n\n"; ObjectID = "j8F-dJ-8sd"; */
+"j8F-dJ-8sd.text" = "To develop digitally empowered individuals in untapped populations in order to access opportunities and thrive in the tech industry that will transform the world. We are committed to providing equity-focused programming centered on IT education, training, career and entrepreneurship pathways to ensure an inclusive tech workforce and economic mobility in Montgomery County. \n\n";
+
+/* Class = "UILabel"; text = "VISION"; ObjectID = "jGV-et-Yqr"; */
+"jGV-et-Yqr.text" = "VISION";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "jRS-Qy-CKm"; */
+"jRS-Qy-CKm.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Sun"; ObjectID = "jqo-E1-qC2"; */
+"jqo-E1-qC2.text" = "Sun";
+
+/* Class = "UITabBarItem"; title = "Events"; ObjectID = "kCU-bl-oBA"; */
+"kCU-bl-oBA.title" = "Événements";
+
+/* Class = "UILabel"; text = "Event 1"; ObjectID = "kEJ-Q5-StV"; */
+"kEJ-Q5-StV.text" = "Event 1";
+
+/* Class = "UILabel"; text = "Mannakee Building"; ObjectID = "kIv-gj-gKY"; */
+"kIv-gj-gKY.text" = "Mannakee Building";
+
+/* Class = "UIButton"; configuration.title = "DOWNLOAD (PDF) ->"; ObjectID = "lEN-9M-JoW"; */
+"lEN-9M-JoW.configuration.title" = "DOWNLOAD (PDF) ->";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "lEN-9M-JoW"; */
+"lEN-9M-JoW.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "10:00"; ObjectID = "lSW-Jg-DSK"; */
+"lSW-Jg-DSK.text" = "10:00";
+
+/* Class = "UILabel"; text = "Event"; ObjectID = "ldY-qr-haS"; */
+"ldY-qr-haS.text" = "Event";
+
+/* Class = "UILabel"; text = "Sat"; ObjectID = "ltq-Jh-1c9"; */
+"ltq-Jh-1c9.text" = "Sat";
+
+/* Class = "UIButton"; configuration.title = "Youtbe BTn"; ObjectID = "mDL-qJ-Cog"; */
+"mDL-qJ-Cog.configuration.title" = "Youtbe BTn";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "mDL-qJ-Cog"; */
+"mDL-qJ-Cog.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Hours (Fall 2022):"; ObjectID = "mZ5-J7-pAG"; */
+"mZ5-J7-pAG.text" = "Hours (Fall 2022):";
+
+/* Class = "UILabel"; text = "IgnITe Hub"; ObjectID = "nDl-j1-hDS"; */
+"nDl-j1-hDS.text" = "IgnITe Hub";
+
+/* Class = "UILabel"; text = "Montgomery College – Rockville Campus\ninfo@ignitehubmc.com"; ObjectID = "pCz-mj-V3z"; */
+"pCz-mj-V3z.text" = "Montgomery College – Rockville Campus\ninfo@ignitehubmc.com";
+
+/* Class = "UILabel"; text = "900 Hungerford Drive, Room 109\nRockville, MD 20850"; ObjectID = "r6U-Mx-4nU"; */
+"r6U-Mx-4nU.text" = "900 Hungerford Drive, Room 109\nRockville, MD 20850";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "rlu-9z-rsR"; */
+"rlu-9z-rsR.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Monday–Friday: 9 a.m.–3 p.m.\nSaturdays: Special Events Only "; ObjectID = "s3m-YB-z6j"; */
+"s3m-YB-z6j.text" = "Monday–Friday: 9 a.m.–3 p.m.\nSaturdays: Special Events Only ";
+
+/* Class = "UILabel"; text = "Hours (Fall 2022):"; ObjectID = "sFG-rv-ugZ"; */
+"sFG-rv-ugZ.text" = "Hours (Fall 2022):";
+
+/* Class = "UILabel"; text = "Have an idea of how the Hub can help our community be IT empowered?"; ObjectID = "t8b-jR-MF5"; */
+"t8b-jR-MF5.text" = "Have an idea of how the Hub can help our community be IT empowered?";
+
+/* Class = "UIButton"; configuration.title = "Naval Surface Warfare Center Carderock Division - Software Developer"; ObjectID = "thW-ae-8jf"; */
+"thW-ae-8jf.configuration.title" = "Naval Surface Warfare Center Carderock Division - Software Developer";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "thW-ae-8jf"; */
+"thW-ae-8jf.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Out Partners"; ObjectID = "vY3-2k-GGW"; */
+"vY3-2k-GGW.text" = "Out Partners";
+
+/* Class = "UITabBarItem"; title = "About"; ObjectID = "w89-L7-6yl"; */
+"w89-L7-6yl.title" = "À propos de";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "wF4-6A-OpV"; */
+"wF4-6A-OpV.title" = "Page d'accueil";
+
+/* Class = "UILabel"; text = "Sat"; ObjectID = "wIh-h0-Wa4"; */
+"wIh-h0-Wa4.text" = "Sat";
+
+/* Class = "UILabel"; text = "Biography"; ObjectID = "wLg-QF-PJH"; */
+"wLg-QF-PJH.text" = "Biography";
+
+/* Class = "UILabel"; text = "Monday–Friday: 9 a.m.–3 p.m.\nSaturdays: Special Events Only "; ObjectID = "xHi-Yw-7aF"; */
+"xHi-Yw-7aF.text" = "Monday–Friday: 9 a.m.–3 p.m.\nSaturdays: Special Events Only ";
+
+/* Class = "UINavigationItem"; title = "IgniteHub"; ObjectID = "yJl-vc-Ckd"; */
+"yJl-vc-Ckd.title" = "IgniteHub";
+
+/* Class = "UILabel"; text = "Technical Training and Development Coordinator"; ObjectID = "ylU-DY-rEe"; */
+"ylU-DY-rEe.text" = "Technical Training and Development Coordinator";
+
+/* Class = "UIViewController"; title = "Calendar"; ObjectID = "yzu-FU-F1H"; */
+"yzu-FU-F1H.title" = "Calendar";

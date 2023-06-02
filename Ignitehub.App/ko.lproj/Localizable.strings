@@ -1,0 +1,53 @@
+//
+//  Localizable.strings
+//  Ignitehub.App
+//
+//  Created by Solano Paz, Miguel I (Student) on 5/12/23.
+//
+"DateLabel" = "날짜: ";
+"hoursLabel" = "시간: ";
+"descriptionLabel" = "설명: ";
+
+"Monday" = "월요일";
+"Tuesday" = "화요일";
+"Wednesday" = "수요일";
+"Thursday" = "목요일";
+"Friday" = "금요일";
+"Saturday" = "토요일";
+"Sunday" = "일요일";
+
+"weekly" = "주간";
+"daily" = "데일리";
+
+"Collaboration" = "몽고메리 카운티의 혁신을 촉발하고 영감을 주기 위해 만들어진 협업 공간";
+"360Tour" = "360도 가상 둘러보기 ->";
+"Speakers" = "플레인 2023 스피커 시리즈";
+"fireside" = "IGNITE Hub 노변 채팅 커리어 시리즈";
+"download" = "다운로드 (PDF) ->";
+"techSeries" = "ignITE Hub 미래 기술 경력 시리즈";
+"empower" = "허브가 커뮤니티에 IT 권한을 부여하는 데 어떻게 도움이 되는지 알고 계십니까?";
+"input" = "지금 의견을 공유하세요! ->";
+"partners" = "우리의 파트너들";
+"hours" = "영업 시간 (가을 2022):";
+"days" = "월요일~금요일 9 a.m.–3 p.m.
+토요일: 특별 이벤트 전용";
+"follow" = "우리를 따르라:";
+
+"about" = "오늘 내일을 준비하는 프로그램";
+"vision" = "비전";
+"visionDesc" = "몽고메리 카운티 지역사회의 문제를 배우고, 혁신하고, 해결하고, 기업가 정신을 자극하고, 직업에 대한 관심을 불러일으키고, 지역사회의 기술 인재를 심화하기 위한 최첨단 Apple 기술을 갖춘 활기찬 하이브리드 협업 환경입니다.";
+"mission" = "사명";
+"missionDesc" = "기회에 접근하고 세상을 변화시킬 기술 산업에서 번성하기 위해 미개척 인구에서 디지털 권한을 가진 개인을 개발합니다. 우리는 몽고메리 카운티의 포용적인 기술 인력과 경제적 이동성을 보장하기 위해 IT 교육, 훈련, 경력 및 기업가 정신 경로를 중심으로 형평성에 초점을 맞춘 프로그램을 제공하기 위해 노력하고 있습니다.";
+"staff" = "직원";
+"director" = "감독, ignITe Hub";
+"biography" = "약력";
+"biographyDesc" = "Kimberly Bloch-Rincan은 비영리 및 교육 부문의 교육/훈련 및 지역사회 봉사 활동 분야에서 20년 이상의 경험을 가진 지역사회 조직가입니다. 그녀는 MC, MCPS, Montgomery County Economic Development Council, 카운티 정부 간의 새로운 이니셔티브인 ignITE Hub의 초대 이사로 소외된 학생들을 위한 STEM/IT 직업에 대한 공평한 접근을 촉진하고 21세기에 지역 기업가 정신 기회를 촉진할 것입니다. 세기 기술 학습 환경..";
+"techTrain" = "기술 교육 및 개발 코디네이터";
+"labCord" = "연구실 코디네이터";
+
+"resources" = "자원";
+"videos" = "비디오 아카이브";
+"jobs" = "직업 및 인턴십 기회";
+'
+
+

@@ -23,6 +23,7 @@ class CalendarViewController: UIViewController, UICollectionViewDelegate, UIColl
         self.navigationItem.titleView = imageView
         
         refresh()
+        setLabels()
         setCellsView()
         setMonthView()
     }
@@ -90,21 +91,17 @@ class CalendarViewController: UIViewController, UICollectionViewDelegate, UIColl
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "calCell", for: indexPath) as! CalendarCell
         
         let calendarDay = totalSquares[indexPath.item]
-        
         cell.dayOfMonth.text = calendarDay.day
-        
-        let formatter = DateFormatter()
-        let stringDate = "\(String(describing: calendarDay.day))/\(CalendarHelper().monthString(date: selectedDate))/\(CalendarHelper().yearString(date: selectedDate))"
-        formatter.dateFormat = "dd/MM/yy"
-
-        //        if(Event().eventsForDate(date: ).count > 0)
-//        {
-//            cell.backgroundColor = UIColor.systemCyan
-//        }
-//        else
-//        {
-//            cell.backgroundColor = UIColor.white
-//        }
+        let day = Int(calendarDay.day)!
+        let date = CalendarHelper().addDays(date: Date().startOfMonth, days: day-1)
+        if(Event().eventsForDate(date: date).count > 0 && calendarDay.month == CalendarDay.Month.current)
+        {
+            cell.backgroundColor = UIColor.systemCyan
+        }
+        else
+        {
+            cell.backgroundColor = UIColor.white
+        }
         
         if(calendarDay.month == CalendarDay.Month.current)
         {
@@ -135,4 +132,36 @@ class CalendarViewController: UIViewController, UICollectionViewDelegate, UIColl
         setMonthView()
     }
     
+    @IBOutlet weak var sun: UILabel!
+    @IBOutlet weak var mon: UILabel!
+    @IBOutlet weak var tue: UILabel!
+    @IBOutlet weak var wed: UILabel!
+    @IBOutlet weak var thu: UILabel!
+    @IBOutlet weak var fri: UILabel!
+    @IBOutlet weak var sat: UILabel!
+    @IBOutlet weak var weeklyBtn: UIButton!
+    
+    let strings = String.Localized.self
+
+    func setLabels() {
+        sun.text = String(strings.sunday.prefix(3))
+        mon.text = String(strings.monday.prefix(3))
+        tue.text = String(strings.tuesday.prefix(3))
+        wed.text = String(strings.wednesday.prefix(3))
+        thu.text = String(strings.thursday.prefix(3))
+        fri.text = String(strings.friday.prefix(3))
+        sat.text = String(strings.saturday.prefix(3))
+        weeklyBtn.setTitle(strings.weekly , for: .normal)
+    }
+    
+}
+
+extension Date {
+    var startOfMonth: Date {
+
+        let calendar = Calendar(identifier: .gregorian)
+        let components = calendar.dateComponents([.year, .month], from: self)
+
+        return  calendar.date(from: components)!
+    }
 }

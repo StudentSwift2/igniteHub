@@ -7,7 +7,9 @@
 
 import Foundation
 
-var eventsList : [Event] = [Event(id: 343434, name: "Testing", startDate: Date(), endDate: Date(), description: "Just a test")]
+var eventsList : [Event] = [Event(id: 343434, name: "Testing", startDate: Date(), endDate: Date(), description: "Just a test"),
+    Event(id: 343434333, name: "Test 2", startDate: CalendarHelper().addDays(date: Date().startOfMonth, days: 12), endDate: CalendarHelper().addDays(date: Date().startOfMonth, days: 12), description: "Something")
+]
 
 class Event {
     var id: Int!

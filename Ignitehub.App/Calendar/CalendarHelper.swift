@@ -22,13 +22,14 @@ class CalendarHelper {
     func monthString(date: Date) -> String {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "LLLL"
-        return dateFormatter.string(from: date)
+        return dateFormatter.string(from: date).capitalized
     }
     
     func monthDayString(date: Date) -> String {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "LLLL dd"
-        return dateFormatter.string(from: date)
+        let strDate = dateFormatter.string(from: date).capitalized
+        return strDate
     }
     
     func yearString(date: Date) -> String {
@@ -73,23 +74,25 @@ class CalendarHelper {
         return component.weekday! - 1
     }
     
+    let strings = String.Localized.self
+    
     func weekDayAsString(date:Date) -> String
     {
         switch weekDay(date: date) {
         case 0:
-            return "Sunday"
+            return strings.sunday
         case 1:
-            return "Monday"
+            return strings.monday
         case 2:
-            return "Tuesday"
+            return strings.tuesday
         case 3:
-            return "Wednesday"
+            return strings.wednesday
         case 4:
-            return "Thursday"
+            return strings.thursday
         case 5:
-            return "Friday"
+            return strings.friday
         case 6:
-            return "Saturday"
+            return strings.saturday
         default:
             return ""
         }

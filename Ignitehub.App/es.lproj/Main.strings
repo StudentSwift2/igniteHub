@@ -1,21 +1,25 @@
 
 /* Class = "UIViewController"; title = "Calendar"; ObjectID = "1LO-lv-ZBs"; */
-"1LO-lv-ZBs.title" = "Calendar";
+"1LO-lv-ZBs.title" = "Calendario";
 
 /* Class = "UIViewController"; title = "Home"; ObjectID = "BYZ-38-t0r"; */
-"BYZ-38-t0r.title" = "Home";
+"BYZ-38-t0r.title" = "Casa";
 
 /* Class = "UITableViewController"; title = "Settings"; ObjectID = "Eur-Ow-W7n"; */
-"Eur-Ow-W7n.title" = "Settings";
+"Eur-Ow-W7n.title" = "Ajustes";
 
 /* Class = "UITabBarItem"; title = "Settings"; ObjectID = "Wjo-oe-1GC"; */
-"Wjo-oe-1GC.title" = "Settings";
+"Wjo-oe-1GC.title" = "Ajustes";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "dGd-eg-jMs"; */
 "dGd-eg-jMs.text" = "Label";
 
 /* Class = "UITabBarItem"; title = "Events"; ObjectID = "kCU-bl-oBA"; */
-"kCU-bl-oBA.title" = "Events";
+"kCU-bl-oBA.title" = "Eventos";
 
 /* Class = "UITabBarItem"; title = "Home"; ObjectID = "wF4-6A-OpV"; */
-"wF4-6A-OpV.title" = "Home";
+"wF4-6A-OpV.title" = "Casa";
+
+"w89-L7-6yl.title" = "Sobre";
+
+"NRq-5W-ejp.title" = "Recursos"

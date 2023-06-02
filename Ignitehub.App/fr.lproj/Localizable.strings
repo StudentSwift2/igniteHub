@@ -1,0 +1,53 @@
+//
+//  Localizable.strings
+//  Ignitehub.App
+//
+//  Created by Solano Paz, Miguel I (Student) on 5/12/23.
+//
+"DateLabel" = "Date: ";
+"hoursLabel" = "Heures: ";
+"descriptionLabel" = "Description: ";
+
+"Monday" = "Lundi";
+"Tuesday" = "Mardi";
+"Wednesday" = "Mercredi";
+"Thursday" = "Jeudi";
+"Friday" = "Vendredi";
+"Saturday" = "Samedi";
+"Sunday" = "Dimanche";
+
+"weekly" = "Semaine";
+"daily" = "Quotidien";
+
+"Collaboration" = "Un espace collaboratif créé pour déclencher et inspirer l'innovation dans le comté de Montgomery";
+"360Tour" = "FAITES UNE VISITE VIRTUELLE 360 ->";
+"Speakers" = "Série d'enceintes Plain 2023";
+"fireside" = "ignITe Hub Fireside Chat Série Carrière";
+"download" = "TÉLÉCHARGER (PDF) ->";
+"techSeries" = "ignITe Hub Future of Technology Career Series";
+"empower" = "Vous avez une idée de la façon dont le Hub peut aider notre communauté à s'équiper en informatique ?";
+"input" = "PARTAGEZ VOTRE CONTRIBUTION MAINTENANT! ->";
+"partners" = "Nos partenaires";
+"hours" = "Heures (Automne 2022):";
+"days" = "Du lundi au vendredi: 9 a.m.–3 p.m.
+les samedis: Événements spéciaux uniquement";
+"follow" = "Suivez-nous:";
+
+"about" = "UN PROGRAMME QUI PRÉPARE AUJOURD'HUI DEMAIN";
+"vision" = "VISION";
+"visionDesc" = "Un environnement collaboratif hybride dynamique avec une technologie Apple de pointe pour apprendre, innover, résoudre les problèmes de la communauté, stimuler l'entrepreneuriat, susciter des intérêts de carrière et approfondir les talents technologiques de la communauté dans le comté de Montgomery.";
+"mission" = "MISSION";
+"missionDesc" = "Développer des individus numériquement autonomes dans des populations inexploitées afin d'accéder à des opportunités et de prospérer dans l'industrie technologique qui transformera le monde. Nous nous engageons à fournir des programmes axés sur l'équité centrés sur l'éducation, la formation, les carrières et les parcours d'entrepreneuriat en informatique afin d'assurer une main-d'œuvre technologique inclusive et une mobilité économique dans le comté de Montgomery.";
+"staff" = "Personnel";
+"director" = "Directrice, ignITe Hub";
+"biography" = "Biographie";
+"biographyDesc" = "Kimberly Bloch-Rincan est une organisatrice communautaire avec plus de 20 ans d'expérience en éducation/formation et en sensibilisation communautaire dans les secteurs à but non lucratif et éducatif. Elle est la première directrice du ignITe Hub, une toute nouvelle initiative entre MC, MCPS, le Conseil de développement économique du comté de Montgomery et le gouvernement du comté qui fera progresser l'accès équitable aux carrières STEM/IT pour les étudiants sous-représentés et favorisera les opportunités d'entrepreneuriat local au 21e environnement d'apprentissage technologique du siècle dernier.";
+"techTrain" = "Coordonnateur de la formation technique et du développement";
+"labCord" = "Coordonnatrice du laboratoire";
+
+"resources" = "Ressources";
+"videos" = "Archives vidéo";
+"jobs" = "Opportunités d'emploi et de stage";
+'
+
+

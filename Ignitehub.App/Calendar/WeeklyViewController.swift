@@ -33,6 +33,7 @@ class WeeklyViewController: UIViewController, UICollectionViewDelegate, UICollec
         let logo = UIImage(named: "Dark Logo")
         let imageView = UIImageView(image:logo)
         self.navigationItem.titleView = imageView
+        setLabels()
         refresh()
         setCellsView()
         setWeekView()
@@ -135,5 +136,28 @@ class WeeklyViewController: UIViewController, UICollectionViewDelegate, UICollec
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         setWeekView()
+    }
+    
+    @IBOutlet weak var sun: UILabel!
+    @IBOutlet weak var mon: UILabel!
+    @IBOutlet weak var tue: UILabel!
+    @IBOutlet weak var wed: UILabel!
+    @IBOutlet weak var thu: UILabel!
+    @IBOutlet weak var fri: UILabel!
+    @IBOutlet weak var sat: UILabel!
+    @IBOutlet weak var dailyBtn: UIButton!
+    
+    let strings = String.Localized.self
+    
+    func setLabels() {
+        sun.text = String(strings.sunday.prefix(3))
+        mon.text = String(strings.monday.prefix(3))
+        tue.text = String(strings.tuesday.prefix(3))
+        wed.text = String(strings.wednesday.prefix(3))
+        thu.text = String(strings.thursday.prefix(3))
+        fri.text = String(strings.friday.prefix(3))
+        sat.text = String(strings.saturday.prefix(3))
+        dailyBtn.setTitle(strings.daily, for: .normal)
+
     }
 }

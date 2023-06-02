@@ -1,0 +1,52 @@
+//
+//  Localizable.strings
+//  Ignitehub.App
+//
+//  Created by Solano Paz, Miguel I (Student) on 5/12/23.
+//
+"DateLabel" = "时间: ";
+"hoursLabel" = "小时: ";
+"descriptionLabel" = "描述: ";
+
+"Monday" = "周一";
+"Tuesday" = "周二";
+"Wednesday" = "周三";
+"Thursday" = "周四";
+"Friday" = "星期五";
+"Saturday" = "周六";
+"Sunday" = "星期日";
+
+"weekly" = "每周";
+"daily" = "日常的";
+
+"Collaboration" = "一个旨在激发和激发蒙哥马利县创新的协作空间";
+"360Tour" = "进行 360 度虚拟游览 ->";
+"Speakers" = "普通2023音箱系列";
+"fireside" = "ignITe Hub 炉边谈话职业系列";
+"download" = "下载 (PDF) ->";
+"techSeries" = "ignITe Hub 技术职业系列的未来";
+"empower" = "了解 Hub 如何帮助我们的社区获得 IT 授权?";
+"input" = "立即分享您的意见! ->";
+"partners" = "我们的合作伙伴";
+"hours" = "营业时间 (秋天 2022):";
+"days" = "周一至周五: 9 a.m.–3 p.m.
+星期六: 仅限特别活动";
+"follow" = "跟着我们:";
+
+"about" = "为今天的明天做准备的计划";
+"vision" = "视力";
+"visionDesc" = "一个充满活力的混合协作环境，配备尖端的 Apple 技术，用于学习、创新、解决社区问题、激发创业精神、激发职业兴趣并深化蒙哥马利县社区的科技人才。";
+"mission" = "使命";
+"missionDesc" = "在未开发人群中培养具有数字能力的个人，以便获得机会并在将改变世界的科技行业中茁壮成长。 我们致力于提供以 IT 教育、培训、职业和创业途径为中心的以股权为中心的计划，以确保蒙哥马利县的包容性技术劳动力和经济流动性。";
+"staff" = "职员";
+"director" = "ignITe 中心主任";
+"biography" = "传记";
+"biographyDesc" = "Kimberly Bloch-Rincan 是一位社区组织者，在非营利和教育部门的教育/培训和社区外展方面拥有 20 多年的经验。 她是 ignITe 中心的首任主任，该中心是 MC、MCPS、蒙哥马利县经济发展委员会和县政府之间的一项全新举措，旨在促进代表性不足的学生公平获得 STEM/IT 职业，并在 21 世纪促进当地创业机会 世纪科技学习环境。";
+"techTrain" = "技术培训和发展协调员";
+"labCord" = "实验室协调员";
+
+"resources" = "资源";
+"videos" = "视频档案";
+"jobs" = "工作和实习机会";
+'
+

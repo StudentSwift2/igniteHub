@@ -27,17 +27,19 @@ class EventDetailsViewController: UIViewController {
         fatalError("init(coder:) has not been implemented")
     }
     
+    let strings = String.Localized.self
+
     override func viewDidLoad() {
         super.viewDidLoad()
         refresh()
         
         titleLabel.text = event.name
-        dateLabel.text = "Date: " +  CalendarHelper().timeString(date: event.startDate!)
-        hoursLabel.text = "Hours: " +  CalendarHelper().timeString(date: event.endDate!)
+        dateLabel.text = strings.dateLabel +  CalendarHelper().timeString(date: event.startDate!)
+        hoursLabel.text = strings.hoursLabel +  CalendarHelper().timeString(date: event.endDate!)
         if let url = event.url {
             urlLabel.text = "URL: " + url.absoluteString
         }
-        descriptionLabel.text = "Description: " + event.description
+        descriptionLabel.text = strings.descriptionLabel + event.description
     }
     
     func refresh() {

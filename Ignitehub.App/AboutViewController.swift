@@ -20,9 +20,45 @@ class AboutViewController: UIViewController {
         }
     }
     
+    
+    @IBOutlet weak var AboutTitle: UILabel!
+    @IBOutlet weak var visionTitle: UILabel!
+    @IBOutlet weak var visionDesc: UILabel!
+    @IBOutlet weak var missionTitle: UILabel!
+    @IBOutlet weak var missionDesc: UILabel!
+    @IBOutlet weak var staffTitle: UILabel!
+    @IBOutlet weak var director: UILabel!
+    @IBOutlet weak var biographyTitle: UILabel!
+    @IBOutlet weak var biographyDesc: UILabel!
+    @IBOutlet weak var techTraining: UILabel!
+    @IBOutlet weak var labCord: UILabel!
+    @IBOutlet weak var hours: UILabel!
+    @IBOutlet weak var days: UILabel!
+    @IBOutlet weak var follow: UILabel!
+    
+    let strings = String.Localized.self
+    
+    func setLabels() {
+        AboutTitle.text = strings.about
+        visionTitle.text = strings.vision
+        visionDesc.text = strings.visionDesc
+        missionTitle.text = strings.mission
+        missionDesc.text = strings.missionDesc
+        staffTitle.text = strings.staff
+        director.text = strings.director
+        biographyTitle.text = strings.biography
+        biographyDesc.text = strings.biographyDesc
+        techTraining.text = strings.techTrain
+        labCord.text = strings.labCord
+        hours.text = strings.hours
+        days.text = strings.days
+        follow.text = strings.follow
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        setLabels()
         let logo = UIImage(named: "Dark Logo")
         let imageView = UIImageView(image:logo)
         navTitle.titleView = imageView

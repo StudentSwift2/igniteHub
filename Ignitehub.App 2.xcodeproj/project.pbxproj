@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		741D30682A284AB40019ED8A /* EventDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741D30672A284AB40019ED8A /* EventDetailsViewController.swift */; };
+		742852002A29A4C500D07D55 /* ResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742851FF2A29A4C500D07D55 /* ResourcesViewController.swift */; };
 		7449D0F42A029CA5003BEDBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7449D0F32A029CA5003BEDBF /* AppDelegate.swift */; };
 		7449D0F62A029CA5003BEDBF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7449D0F52A029CA5003BEDBF /* SceneDelegate.swift */; };
 		7449D0F82A029CA5003BEDBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7449D0F72A029CA5003BEDBF /* ViewController.swift */; };
@@ -33,6 +34,10 @@
 
 /* Begin PBXFileReference section */
 		741D30672A284AB40019ED8A /* EventDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailsViewController.swift; sourceTree = "<group>"; };
+		742851FC2A298C1D00D07D55 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		742851FD2A298C1E00D07D55 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		742851FE2A298C1E00D07D55 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		742851FF2A29A4C500D07D55 /* ResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesViewController.swift; sourceTree = "<group>"; };
 		7449D0F02A029CA5003BEDBF /* Ignitehub.App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ignitehub.App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7449D0F32A029CA5003BEDBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7449D0F52A029CA5003BEDBF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +46,12 @@
 		7449D0FC2A029CB2003BEDBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7449D0FF2A029CB2003BEDBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7449D1012A029CB2003BEDBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		744D3B8F2A29BB3000010D98 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		744D3B902A29BB3100010D98 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		744D3B912A29BB3100010D98 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		744D3B922A29BB5400010D98 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
+		744D3B932A29BB5500010D98 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		744D3B942A29BB5500010D98 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
 		7486273D2A0E7A1C00D8A66D /* stringLocalization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stringLocalization.swift; sourceTree = "<group>"; };
 		7486273F2A0E7C9000D8A66D /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
 		748627402A0E7C9000D8A66D /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
@@ -99,6 +110,7 @@
 				74FF5C662A146F2600380170 /* Carousel.swift */,
 				74C9153C2A0303E500D0B0EB /* launchData.swift */,
 				7486273D2A0E7A1C00D8A66D /* stringLocalization.swift */,
+				742851FF2A29A4C500D07D55 /* ResourcesViewController.swift */,
 				74FF5C632A146C4C00380170 /* Calendar */,
 				7449D0F92A029CA5003BEDBF /* Main.storyboard */,
 				7449D0FC2A029CB2003BEDBF /* Assets.xcassets */,
@@ -169,6 +181,9 @@
 				en,
 				Base,
 				es,
+				"zh-Hans",
+				fr,
+				ko,
 			);
 			mainGroup = 7449D0E72A029CA4003BEDBF;
 			productRefGroup = 7449D0F12A029CA5003BEDBF /* Products */;
@@ -216,6 +231,7 @@
 				74FF5C672A146F2600380170 /* Carousel.swift in Sources */,
 				74D66FC32A27DCE20001E8EE /* CalendarDay.swift in Sources */,
 				7449D0F42A029CA5003BEDBF /* AppDelegate.swift in Sources */,
+				742852002A29A4C500D07D55 /* ResourcesViewController.swift in Sources */,
 				7449D0F62A029CA5003BEDBF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -228,6 +244,9 @@
 			children = (
 				7449D0FA2A029CA5003BEDBF /* Base */,
 				7486273F2A0E7C9000D8A66D /* es */,
+				742851FC2A298C1D00D07D55 /* zh-Hans */,
+				744D3B8F2A29BB3000010D98 /* fr */,
+				744D3B922A29BB5400010D98 /* ko */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -237,6 +256,9 @@
 			children = (
 				7449D0FF2A029CB2003BEDBF /* Base */,
 				748627402A0E7C9000D8A66D /* es */,
+				742851FD2A298C1E00D07D55 /* zh-Hans */,
+				744D3B902A29BB3100010D98 /* fr */,
+				744D3B932A29BB5500010D98 /* ko */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -246,6 +268,9 @@
 			children = (
 				748627442A0E7D7F00D8A66D /* en */,
 				748627462A0E7D8A00D8A66D /* es */,
+				742851FE2A298C1E00D07D55 /* zh-Hans */,
+				744D3B912A29BB3100010D98 /* fr */,
+				744D3B942A29BB5500010D98 /* ko */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";

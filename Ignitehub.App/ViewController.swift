@@ -69,7 +69,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var empowerView: UIView!
     
     
-    @IBOutlet weak var igniteLabel: UILabel!
     @IBOutlet weak var igniteDesc: UILabel!
     @IBOutlet weak var tourBtn: UIButton!
     @IBOutlet weak var speakerTitle: UILabel!
@@ -81,11 +80,29 @@ class ViewController: UIViewController {
     @IBOutlet weak var inputBtn: UIButton!
     @IBOutlet weak var partnerTitle: UILabel!
     
-    
+    @IBOutlet weak var hoursLabel: UILabel!
+    @IBOutlet weak var daysLabel: UILabel!
+
     @IBOutlet weak var followLabel: UILabel!
+
+    let strings = String.Localized.self
+    
+    func setLabels() {
+        igniteDesc.text = strings.collaboration
+        tourBtn.setTitle(strings.tour, for: .normal)
+        speakerTitle.text = strings.speakers
+        firechatLabel.text = strings.fireside
+        download1Btn.setTitle(strings.download, for: .normal)
+        download2Btn.setTitle(strings.download, for: .normal)
+        empowerLabel.text = strings.empower
+        inputBtn.setTitle(strings.input, for: .normal)
+        partnerTitle.text = strings.partners
+        hoursLabel.text = strings.hours
+        daysLabel.text = strings.days
+        followLabel.text = strings.follow
+    }
     
     let colors = Colors()
-    let colors2 = Colors()
 
     func refresh() {
           bluewView.backgroundColor = UIColor.clear
@@ -95,12 +112,13 @@ class ViewController: UIViewController {
     }
     
     lazy var carousel = Carousel(frame: .zero, carouselImages: carouselImages)
-    
-    let strings = String.Localized.self
+        
+    @IBOutlet weak var igniteLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        setLabels()
         setNavTitle()
         getVideo()
         
