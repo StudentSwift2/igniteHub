@@ -43,14 +43,7 @@ class Event {
         }
    
     
-    init(id: Int!, name: String!, startDate: Date!, endDate: Date!, description: String!, url: URL) {
-        self.id = id
-        self.name = name
-        self.startDate = startDate
-        self.endDate = endDate
-        self.description = description
-        self.url = url
-    }
+    
     
     func eventsForDate(date: Date) -> [Event]
     {
