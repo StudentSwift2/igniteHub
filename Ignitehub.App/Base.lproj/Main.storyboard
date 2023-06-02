@@ -1155,25 +1155,25 @@ Rockville, MD 20850</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eDi-Fn-Shp">
-                                <rect key="frame" x="20" y="161" width="335" height="28.666666666666657"/>
+                                <rect key="frame" x="20" y="176" width="335" height="28.666666666666657"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hours:Start - End" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7wS-QT-TPQ">
-                                <rect key="frame" x="20" y="209.66666666666666" width="335" height="28.666666666666657"/>
+                                <rect key="frame" x="20" y="224.66666666666666" width="335" height="28.666666666666657"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="URL:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B3R-DA-jX6">
-                                <rect key="frame" x="20" y="258.33333333333331" width="335" height="28.666666666666686"/>
+                                <rect key="frame" x="20" y="273.33333333333331" width="335" height="28.666666666666686"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description:" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IbL-H7-pGY">
-                                <rect key="frame" x="20" y="307" width="335" height="28.666666666666686"/>
+                                <rect key="frame" x="20" y="322" width="335" height="28.666666666666686"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1191,13 +1191,13 @@ Rockville, MD 20850</string>
                             <constraint firstItem="1Ij-Nu-Uqw" firstAttribute="top" secondItem="fRe-ik-Ofo" secondAttribute="bottom" constant="-27" id="Xro-Y8-alI"/>
                             <constraint firstItem="IbL-H7-pGY" firstAttribute="top" secondItem="B3R-DA-jX6" secondAttribute="bottom" constant="20" id="bpl-km-Xkk"/>
                             <constraint firstItem="a2R-4p-7l4" firstAttribute="trailing" secondItem="B3R-DA-jX6" secondAttribute="trailing" constant="20" id="bwd-Td-2YW"/>
-                            <constraint firstItem="7wS-QT-TPQ" firstAttribute="top" secondItem="eDi-Fn-Shp" secondAttribute="bottom" constant="20.000000000000028" id="dni-s2-O4i"/>
+                            <constraint firstItem="7wS-QT-TPQ" firstAttribute="top" secondItem="eDi-Fn-Shp" secondAttribute="bottom" constant="20" id="dni-s2-O4i"/>
                             <constraint firstItem="a2R-4p-7l4" firstAttribute="trailing" secondItem="IbL-H7-pGY" secondAttribute="trailing" constant="20" id="flg-fg-7ur"/>
                             <constraint firstItem="7wS-QT-TPQ" firstAttribute="leading" secondItem="a2R-4p-7l4" secondAttribute="leading" constant="20" id="gPt-6e-SZr"/>
                             <constraint firstItem="a2R-4p-7l4" firstAttribute="trailing" secondItem="7wS-QT-TPQ" secondAttribute="trailing" constant="20" id="k9G-ca-RJT"/>
                             <constraint firstItem="a2R-4p-7l4" firstAttribute="trailing" secondItem="eDi-Fn-Shp" secondAttribute="trailing" constant="20" id="mRj-2X-Exm"/>
                             <constraint firstItem="1Ij-Nu-Uqw" firstAttribute="leading" secondItem="a2R-4p-7l4" secondAttribute="leading" constant="20" id="oXb-FK-48l"/>
-                            <constraint firstItem="eDi-Fn-Shp" firstAttribute="top" secondItem="fRe-ik-Ofo" secondAttribute="bottom" constant="20" id="pno-Q6-NZ4"/>
+                            <constraint firstItem="eDi-Fn-Shp" firstAttribute="top" secondItem="fRe-ik-Ofo" secondAttribute="bottom" constant="35" id="pno-Q6-NZ4"/>
                             <constraint firstItem="B3R-DA-jX6" firstAttribute="top" secondItem="7wS-QT-TPQ" secondAttribute="bottom" constant="20" id="rFN-aW-65e"/>
                             <constraint firstItem="eDi-Fn-Shp" firstAttribute="leading" secondItem="a2R-4p-7l4" secondAttribute="leading" constant="20" id="zIh-LR-ltf"/>
                         </constraints>
