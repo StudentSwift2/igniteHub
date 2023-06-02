@@ -93,7 +93,7 @@ class CalendarViewController: UIViewController, UICollectionViewDelegate, UIColl
         let calendarDay = totalSquares[indexPath.item]
         cell.dayOfMonth.text = calendarDay.day
         let day = Int(calendarDay.day)!
-        let date = CalendarHelper().addDays(date: Date().startOfMonth, days: day-1)
+        let date = CalendarHelper().addDays(date: CalendarHelper().firstOfMonth(date: selectedDate), days: day-1)
         if(Event().eventsForDate(date: date).count > 0 && calendarDay.month == CalendarDay.Month.current)
         {
             cell.backgroundColor = UIColor.systemCyan
@@ -156,12 +156,3 @@ class CalendarViewController: UIViewController, UICollectionViewDelegate, UIColl
     
 }
 
-extension Date {
-    var startOfMonth: Date {
-
-        let calendar = Calendar(identifier: .gregorian)
-        let components = calendar.dateComponents([.year, .month], from: self)
-
-        return  calendar.date(from: components)!
-    }
-}

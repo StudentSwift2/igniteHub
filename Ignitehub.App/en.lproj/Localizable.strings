@@ -4,6 +4,50 @@
 //
 //  Created by Solano Paz, Miguel I (Student) on 5/12/23.
 //
+"DateLabel" = "Date: ";
+"hoursLabel" = "Hours: ";
+"descriptionLabel" = "Description: ";
 
-"Hello" = "Hello";
-"Welcome" = "Welcome";
+"Monday" = "Monday";
+"Tuesday" = "Tuesday";
+"Wednesday" = "Wednesday";
+"Thursday" = "Thursday";
+"Friday" = "Friday";
+"Saturday" = "Saturday";
+"Sunday" = "Sunday";
+
+"weekly" = "Weekly";
+"daily" = "Daily";
+
+"Collaboration" = "A collaborative space created to ignite and inspire innovation in Montgomery County";
+"360Tour" = "TAKE A 360 VIRTUAL TOUR ->";
+"Speakers" = "Plain 2023 Speakers Series";
+"fireside" = "ignITe Hub Fireside Chat Career Series";
+"download" = "DOWNLOAD (PDF) ->";
+"techSeries" = "ignITe Hub Future of Techology Career Series";
+"empower" = "Have an idea of how the Hub can help our community be IT empowered?";
+"input" = "SHARE YOUR IMPUT NOW! ->";
+"partners" = "Our Partners";
+"hours" = "Hours (Fall 2022):";
+"days" = "Monday–Friday: 9 a.m.–3 p.m.
+Saturdays: Special Events Only";
+"follow" = "Follow Us:";
+
+"about" = "A PROGRAM THAT PREPARES FOR TOMORROW TODAY";
+"vision" = "VISION";
+"visionDesc" = "A vibrant, hybrid collaborative environment with cutting-edge Apple technology to learn, innovate, solve community problems, spur entrepreneurship, spark career interests and deepen the community’s tech talent in Montgomery County.";
+"mission" = "MISSION";
+"missionDesc" = "To develop digitally empowered individuals in untapped populations in order to access opportunities and thrive in the tech industry that will transform the world. We are committed to providing equity-focused programming centered on IT education, training, career and entrepreneurship pathways to ensure an inclusive tech workforce and economic mobility in Montgomery County.";
+"staff" = "Staff";
+"director" = "Director, ignITe Hub";
+"biography" = "Biography";
+"biographyDesc" = "Kimberly Bloch-Rincan is a community organizer with over 20 years of experience in education/training and community outreach in the non-profit and educational sectors. She is the inaugural Director for the ignITe Hub which is a brand new initiative between MC, MCPS, Montgomery County Economic Development Council, and the County Government that will advance equitable access to STEM/IT careers for underrepresented students and promote local entrepreneurship opportunities in 21st century technology-learning environment.";
+"techTrain" = "Technical Training and Development Coordinator";
+"labCord" = "Lab Coordinator";
+
+"resources" = "Resources";
+"videos" = "Video Archives";
+"jobs" = "Job & Internship Opportunities";
+'
+
+

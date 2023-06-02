@@ -68,6 +68,13 @@ class CalendarHelper {
         return calendar.date(from: component)!
     }
     
+    func getMonth(date:Date) -> Int
+    {
+        let component = calendar.dateComponents([.month], from: date)
+        return component.month!
+    }
+
+    
     func weekDay(date:Date) -> Int
     {
         let component = calendar.dateComponents([.weekday], from: date)

@@ -98,6 +98,101 @@
             endingLineNumber = "97"
             landmarkName = "collectionView(_:cellForItemAt:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D1A8BB5E-3266-4E35-98F7-B3D0EDF1590C - 90fbd9b828d3e29d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ignitehub_App.CalendarViewController.collectionView(_: __C.UICollectionView, cellForItemAt: Foundation.IndexPath) -&gt; __C.UICollectionViewCell"
+                  moduleName = "Ignitehub.App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/164127/Documents/Xcode/IgniteHub/Ignitehub.App/Ignitehub.App/Calendar/CalendarViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "1763">
+               </Location>
+               <Location
+                  uuid = "D1A8BB5E-3266-4E35-98F7-B3D0EDF1590C - 90fbd9b828d3e29d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ignitehub_App.CalendarViewController.collectionView(_: __C.UICollectionView, cellForItemAt: Foundation.IndexPath) -&gt; __C.UICollectionViewCell"
+                  moduleName = "Ignitehub.App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/164127/Documents/Xcode/IgniteHub/Ignitehub.App/Ignitehub.App/Calendar/CalendarViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "1769">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EEFD7D09-FF2C-4A22-841A-DDEF4258BA6A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ignitehub.App/Calendar/Event.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "eventsForDate(date:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EEFD7D09-FF2C-4A22-841A-DDEF4258BA6A - 4c7183ca6a413fb1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ignitehub_App.Event.eventsForDate(date: Foundation.Date) -&gt; Swift.Array&lt;Ignitehub_App.Event&gt;"
+                  moduleName = "Ignitehub.App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/164127/Documents/Xcode/IgniteHub/Ignitehub.App/Ignitehub.App/Calendar/Event.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "1257">
+               </Location>
+               <Location
+                  uuid = "EEFD7D09-FF2C-4A22-841A-DDEF4258BA6A - 4c7183ca6a413fb1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ignitehub_App.Event.eventsForDate(date: Foundation.Date) -&gt; Swift.Array&lt;Ignitehub_App.Event&gt;"
+                  moduleName = "Ignitehub.App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/164127/Documents/Xcode/IgniteHub/Ignitehub.App/Ignitehub.App/Calendar/Event.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "1202">
+               </Location>
+               <Location
+                  uuid = "EEFD7D09-FF2C-4A22-841A-DDEF4258BA6A - 4c7183ca6a413fb1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ignitehub_App.Event.eventsForDate(date: Foundation.Date) -&gt; Swift.Array&lt;Ignitehub_App.Event&gt;"
+                  moduleName = "Ignitehub.App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/164127/Documents/Xcode/IgniteHub/Ignitehub.App/Ignitehub.App/Calendar/Event.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "1123">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -8,7 +8,7 @@
 import Foundation
 
 var eventsList : [Event] = [Event(id: 343434, name: "Testing", startDate: Date(), endDate: Date(), description: "Just a test"),
-    Event(id: 343434333, name: "Test 2", startDate: CalendarHelper().addDays(date: Date().startOfMonth, days: 12), endDate: CalendarHelper().addDays(date: Date().startOfMonth, days: 12), description: "Something")
+                            Event(id: 343434333, name: "Test 2", startDate: CalendarHelper().addDays(date: CalendarHelper().firstOfMonth(date: Date()), days: 12) , endDate: CalendarHelper().addDays(date: CalendarHelper().firstOfMonth(date: Date()), days: 12), description: "Something")
 ]
 
 class Event {
@@ -38,7 +38,11 @@ class Event {
         for event in eventsList
         {
             if(Calendar.current.isDate(event.startDate, inSameDayAs: date)) {
-                daysEvents.append(event)
+                let eventMonth = CalendarHelper().getMonth(date: event.startDate)
+                let dateMonth = CalendarHelper().getMonth(date: date)
+                if(eventMonth == dateMonth) {
+                    daysEvents.append(event)
+                }
             }
         }
         return daysEvents
