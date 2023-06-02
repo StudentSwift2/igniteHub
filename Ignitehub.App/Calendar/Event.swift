@@ -8,7 +8,7 @@
 import Foundation
 
 var eventsList : [Event] = [Event(id: 343434, name: "Testing", startDate: Date(), endDate: Date(), description: "Just a test"),
-    Event(id: 343434333, name: "Test 2", startDate: CalendarHelper().addDays(date: CalendarHelper().firstOfMonth(date: Date()), days: 12) , endDate: CalendarHelper().addDays(date: CalendarHelper().firstOfMonth(date: Date()), days: 12), description: "Something \nSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomething \n SomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethin \n gSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomething"),
+                            Event(id: 343434333, name: "Test 2", startDate: CalendarHelper().addDays(date: CalendarHelper().firstOfMonth(date: Date()), days: 12) , endDate: CalendarHelper().addDays(date: CalendarHelper().firstOfMonth(date: Date()), days: 12), description: "Something \nSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomething \n SomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethin \n gSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomething", url: URL(string: "https://mcpsmd.instructure.com/courses/707329/modules")!),
     
 ]
 class Event {

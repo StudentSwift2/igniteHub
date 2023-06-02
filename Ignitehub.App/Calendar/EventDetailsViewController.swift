@@ -22,6 +22,16 @@ class EventDetailsViewController: UIViewController {
     @IBOutlet weak var hoursInfo: UILabel!
     @IBOutlet weak var urlInfo: UILabel!
     
+    var urlLink : URL!
+    
+    @IBAction func openUrl(_ sender: Any) {
+        if let url = urlLink {
+            if UIApplication.shared.canOpenURL(url) {
+                UIApplication.shared.open(url, options: [:], completionHandler: nil)
+            }
+        }
+    }
+    
     
     var event : Event
     
@@ -51,6 +61,7 @@ class EventDetailsViewController: UIViewController {
         urlLabel.text = "URL: "
         if let url = event.url {
             urlInfo.text = url.absoluteString
+            urlLink = url
         }
         
         descriptionTitle.text = strings.descriptionLabel
