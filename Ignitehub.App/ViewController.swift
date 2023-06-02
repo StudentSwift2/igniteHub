@@ -116,12 +116,14 @@ class ViewController: UIViewController {
     @IBOutlet weak var igniteLabel: UILabel!
     
     override func viewDidLoad() {
-        super.viewDidLoad()
-        
+        super.viewDidLoad()        
         setLabels()
+
+        let events = FileProccesser.getIgniteHubCalerderData();
+        if let events = events { eventsList = events }
+
         setNavTitle()
-        getVideo()
-        
+        getVideo()        
         igniteLabel.layer.backgroundColor  = UIColor.white.cgColor
         igniteLabel.layer.cornerRadius = 10
         igniteLabel.layer.masksToBounds = true
