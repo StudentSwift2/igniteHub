@@ -43,7 +43,7 @@
 		742851FD2A298C1E00D07D55 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		742851FE2A298C1E00D07D55 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		742851FF2A29A4C500D07D55 /* ResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesViewController.swift; sourceTree = "<group>"; };
-		7449D0F02A029CA5003BEDBF /* Ignitehub.App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ignitehub.App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7449D0F02A029CA5003BEDBF /* IgniteHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IgniteHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7449D0F32A029CA5003BEDBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7449D0F52A029CA5003BEDBF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7449D0F72A029CA5003BEDBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -104,7 +104,7 @@
 		7449D0F12A029CA5003BEDBF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7449D0F02A029CA5003BEDBF /* Ignitehub.App.app */,
+				7449D0F02A029CA5003BEDBF /* IgniteHub.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -194,7 +194,7 @@
 			);
 			name = Ignitehub.App;
 			productName = Ignitehub.App;
-			productReference = 7449D0F02A029CA5003BEDBF /* Ignitehub.App.app */;
+			productReference = 7449D0F02A029CA5003BEDBF /* IgniteHub.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -445,6 +445,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8G9H2C6F33;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Ignitehub.App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -456,8 +457,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "WJHS.Ignitehub-App";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = WJHS.Ignitehub;
+				PRODUCT_NAME = IgniteHub;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -471,6 +472,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8G9H2C6F33;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Ignitehub.App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -482,8 +484,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "WJHS.Ignitehub-App";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = WJHS.Ignitehub;
+				PRODUCT_NAME = IgniteHub;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
