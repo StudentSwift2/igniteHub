@@ -7,10 +7,13 @@
 
 import Foundation
 
+//
+// Contains the class for retreving the Ignithub data
+//
 
 struct FileProccesser {
     
-    
+    // Fetch and process the caender data
     static func getIgniteHubCalerderData() -> [Event]? {
         
         // Static URL for IgniteHub events
