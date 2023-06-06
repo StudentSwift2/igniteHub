@@ -7,15 +7,18 @@
 
 import Foundation
 
+//
+// Contains the class of downloading files
+//
 
 
 class Downloader {
     
-    static var url = URL(string: "https://ignitehubmc.com/events/list/?ical=1");
-    static var file = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!.appendingPathComponent("Calender.ics");
-    
+    // Download a remote file
     static func downloadFile(siteURL: URL, fileURL: URL)  {
+        
         let semaphore = DispatchSemaphore(value: 0);
+        
         // Get destination URL
         let destinationFileUrl = fileURL;
         
