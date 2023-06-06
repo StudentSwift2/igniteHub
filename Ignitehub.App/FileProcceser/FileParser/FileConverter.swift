@@ -53,6 +53,7 @@ class Converter {
             .withTime,
         ];
         
+        
         // Convert dates into swift Date instances
         let startDate = dateFormater.date(from: model.dtstart);
         let endDate = dateFormater.date(from: model.dtend );
