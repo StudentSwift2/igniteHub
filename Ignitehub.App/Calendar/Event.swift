@@ -7,13 +7,8 @@
 
 import Foundation
 
-/*
-var eventsList : [Event] = [Event(id: 343434, name: "Testing", startDate: Date(), endDate: Date(), description: "Just a test"),
-                            Event(id: 343434333, name: "Test 2", startDate: CalendarHelper().addDays(date: CalendarHelper().firstOfMonth(date: Date()), days: 12) , endDate: CalendarHelper().addDays(date: CalendarHelper().firstOfMonth(date: Date()), days: 12), description: "Something \nSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomething \n SomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethin \n gSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomethingSomething", url: URL(string: "https://mcpsmd.instructure.com/courses/707329/modules")!),
-    
-]
-*/
-var eventsList : [Event] = [] //[Event(startDate: Date(), endDate: Date(), dateStamp: Date(), created: Date(), lastModified: Date(), id: "test", name: "testing", description: "testing", url: URL(string: "testing.org"))]
+
+var eventsList : [Event] = []
 
 class Event {
     var startDate: Date!;  // DTSTART
@@ -26,20 +21,21 @@ class Event {
     var description: String!;  // DESCRIPTION
     var url: URL!;  // URL
 
+    
     init() {
         
     }
-
+     
     init(startDate: Date!, endDate: Date!, dateStamp: Date!, created: Date!, lastModified: Date!, id: String!, name: String!, description: String!, url: URL!) {
-        self.startDate = startDate;
-        self.endDate = endDate;
-        self.dateStamp = dateStamp;
-        self.created = created;
-        self.lastModeified = lastModified;
-        self.id = id;
-        self.name = name;
-        self.description = description;
-        self.url = url;
+            self.startDate = startDate;
+            self.endDate = endDate;
+            self.dateStamp = dateStamp;
+            self.created = created;
+            self.lastModeified = lastModified;
+            self.id = id;
+            self.name = name;
+            self.description = description;
+            self.url = url;
         }
    
     

@@ -8,7 +8,7 @@
 import Foundation
 
 //
-// Contains the class of downloading files
+// Contains the class for downloading files
 //
 
 
@@ -40,11 +40,17 @@ class Downloader {
             if let tempLocalUrl = tempLocalUrl, error == nil {
                 // Success
                 
+                //
+                // Uncomment the following code for debugging:
+                //
+                //
                 // print HTTP responce
-                // MAYBE: Remove before final
-                if let statusCode = (response as? HTTPURLResponse)?.statusCode {
-                    print("Successfully downloaded. Status code: \(statusCode)");
-                }
+                //
+                //if let statusCode = (response as? HTTPURLResponse)?.statusCode {
+                //    print("Successfully downloaded. Status code: \(statusCode)");
+                //}
+                //
+                
                 
                 // Check if a file already exists a destination and delete it if so
                 if FileManager.default.fileExists(atPath: destinationFileUrl.path) {
@@ -60,7 +66,14 @@ class Downloader {
                 
             } else {
                 // Failure
-                print("Error took place while downloading a file. Error description: %@", error?.localizedDescription);
+                
+                //
+                // Uncomment the following code for debugging
+                //
+                // Failure
+                //print("Error took place while downloading a file. Error description:", (error?.localizedDescription)!);
+                //
+                
             }
             semaphore.signal();
         }

@@ -119,8 +119,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()        
         setLabels()
 
-        let events = FileProccesser.getIgniteHubCalerderData();
-        if let events = events { eventsList = events }
+        //let events = FileProccesser.getIgniteHubCalerderData();
+       // if let events = events { eventsList = events }
 
         setNavTitle()
         getVideo()        
