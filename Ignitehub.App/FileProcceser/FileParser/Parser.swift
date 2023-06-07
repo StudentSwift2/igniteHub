@@ -8,13 +8,13 @@
 import Foundation
 
 //
-// contains the class for all the parsing using NSScanner
+// Contains the class for all the parsing using NSScanner
 //
 
 
 // NOTE: _ = is needed is certain areas to avoid an overwhelming amount of warnings
 
-class FileParser {
+final class FileParser {
     
     // Breaks an .ics file in the form of a string into its component events, also as strings
     static func parseToBock(fileAsString: String) -> [String]? {

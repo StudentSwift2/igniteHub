@@ -11,7 +11,7 @@ import Foundation
 // Contains the class for handling all conversions 
 //
 
-class Converter {
+final class Converter {
     
     // Convert a file into a String
     static func FileToString(file: URL) -> String? {
