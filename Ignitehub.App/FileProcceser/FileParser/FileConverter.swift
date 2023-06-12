@@ -11,7 +11,7 @@ import Foundation
 // Contains the class for handling all conversions 
 //
 
-class Converter {
+final class Converter {
     
     // Convert a file into a String
     static func FileToString(file: URL) -> String? {
@@ -52,6 +52,7 @@ class Converter {
             .withYear,
             .withTime,
         ];
+        
         
         // Convert dates into swift Date instances
         let startDate = dateFormater.date(from: model.dtstart);
