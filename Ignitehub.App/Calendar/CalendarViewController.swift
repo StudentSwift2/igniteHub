@@ -39,8 +39,8 @@ class CalendarViewController: UIViewController, UICollectionViewDelegate, UIColl
     func setCellsView ()
     {
         var width = (collectionView.frame.size.width - 2) / 8
-
-        if(UIScreen.main.bounds.width > 390) {
+        let screen = UIScreen.main.bounds.width
+        if(screen >= 390) {
             width = (collectionView.frame.size.width - 2) / 7
         }
         

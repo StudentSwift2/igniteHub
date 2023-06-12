@@ -195,5 +195,419 @@
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FE5DBDD4-9FD3-473E-9F75-B41A0B70455A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ignitehub.App/Calendar/WeeklyViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "setCellsView()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FE5DBDD4-9FD3-473E-9F75-B41A0B70455A - cacd9b3715a89fba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IgniteHub.WeeklyViewController.setCellsView() -&gt; ()"
+                  moduleName = "IgniteHub"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/164127/Documents/Xcode/IgniteHub/Ignitehub.App/Ignitehub.App/Calendar/WeeklyViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "325">
+               </Location>
+               <Location
+                  uuid = "FE5DBDD4-9FD3-473E-9F75-B41A0B70455A - cacd9b3715a89fba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IgniteHub.WeeklyViewController.setCellsView() -&gt; ()"
+                  moduleName = "IgniteHub"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/164127/Documents/Xcode/IgniteHub/Ignitehub.App/Ignitehub.App/Calendar/WeeklyViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "512">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0D490EAD-9922-482F-B0BD-C3C1C7981192"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ignitehub.App/Calendar/WeeklyViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "setCellsView()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D78EBE96-5317-4800-8C85-F945C18374F4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ignitehub.App/Calendar/DailyViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "99C8FE45-25D9-4F12-BDE6-03F3FDCA3122"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ignitehub.App/Calendar/DailyViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "showDetail(_:sender:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "99C8FE45-25D9-4F12-BDE6-03F3FDCA3122 - e9bb0559e3b30073"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IgniteHub.DailyViewController.showDetail(_: __C.NSCoder, sender: Swift.Optional&lt;Any&gt;) -&gt; Swift.Optional&lt;IgniteHub.EventDetailsViewController&gt;"
+                  moduleName = "IgniteHub"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/164127/Documents/Xcode/IgniteHub/Ignitehub.App/Ignitehub.App/Calendar/DailyViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "312">
+               </Location>
+               <Location
+                  uuid = "99C8FE45-25D9-4F12-BDE6-03F3FDCA3122 - e9bb0559e3b30073"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IgniteHub.DailyViewController.showDetail(_: __C.NSCoder, sender: Swift.Optional&lt;Any&gt;) -&gt; Swift.Optional&lt;IgniteHub.EventDetailsViewController&gt;"
+                  moduleName = "IgniteHub"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/164127/Documents/Xcode/IgniteHub/Ignitehub.App/Ignitehub.App/Calendar/DailyViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "486">
+               </Location>
+               <Location
+                  uuid = "99C8FE45-25D9-4F12-BDE6-03F3FDCA3122 - e9bb0559e3b30073"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IgniteHub.DailyViewController.showDetail(_: __C.NSCoder, sender: Swift.Optional&lt;Any&gt;) -&gt; Swift.Optional&lt;IgniteHub.EventDetailsViewController&gt;"
+                  moduleName = "IgniteHub"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/164127/Documents/Xcode/IgniteHub/Ignitehub.App/Ignitehub.App/Calendar/DailyViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "516">
+               </Location>
+               <Location
+                  uuid = "99C8FE45-25D9-4F12-BDE6-03F3FDCA3122 - e9bb0559e3b30052"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IgniteHub.DailyViewController.showDetail(_: __C.NSCoder, sender: Swift.Optional&lt;Any&gt;) -&gt; Swift.Optional&lt;IgniteHub.EventDetailsViewController&gt;"
+                  moduleName = "IgniteHub"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/164127/Documents/Xcode/IgniteHub/Ignitehub.App/Ignitehub.App/Calendar/DailyViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "54">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "63BD9351-72FB-48F5-B2E8-AD846BAB982E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ignitehub.App/Calendar/DailyViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "tableView(_:didSelectRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1AA5BC03-5BB6-45E0-BF54-EB4D67A39744"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ignitehub.App/Calendar/Event.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "eventsForDateAndTime(date:hour:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B09EDF94-F699-42F7-9358-68BD8CEB032C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ignitehub.App/Calendar/Event.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "eventsForDateAndTime(date:hour:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5172FD09-F352-4F1F-B24F-ADBE3B514B93"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ignitehub.App/Calendar/Event.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "eventsForDateAndTime(date:hour:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7322F48B-4FB5-4C88-801A-D745E99E5188"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ignitehub.App/Calendar/Event.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "eventsForDateAndTime(date:hour:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4EE85844-7957-428B-AB35-2B0D4C973543"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ignitehub.App/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A7EBF321-E6B5-49D0-AE0B-361C805280D3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ignitehub.App/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "sendEmail(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "071482DF-9862-432E-B0A8-7E798635E5B4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ignitehub.App/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "sendEmail(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F25E6DEA-6CB1-4B2F-A49D-C440A7195891"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ignitehub.App/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "sendEmail(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D5BB7EA6-66FF-497C-9E50-37A21D9F8D48"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ignitehub.App/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "sendEmail(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "10B0FCE9-EE78-4C0C-AF08-5B4145349924"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ignitehub.App/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "sendEmail(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "10B0FCE9-EE78-4C0C-AF08-5B4145349924 - a06ba8697122fae7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IgniteHub.ViewController.sendEmail(Any) -&gt; ()"
+                  moduleName = "IgniteHub"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/164127/Documents/Xcode/IgniteHub/Ignitehub.App/Ignitehub.App/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "78">
+               </Location>
+               <Location
+                  uuid = "10B0FCE9-EE78-4C0C-AF08-5B4145349924 - a06ba8697122fae7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IgniteHub.ViewController.sendEmail(Any) -&gt; ()"
+                  moduleName = "IgniteHub"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/164127/Documents/Xcode/IgniteHub/Ignitehub.App/Ignitehub.App/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "94">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6D7CD899-F0C1-46B2-BEB0-8DC52540FAC0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ignitehub.App/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "sendEmail(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6D7CD899-F0C1-46B2-BEB0-8DC52540FAC0 - a06ba8697122fa84"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IgniteHub.ViewController.sendEmail(Any) -&gt; ()"
+                  moduleName = "IgniteHub"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/164127/Documents/Xcode/IgniteHub/Ignitehub.App/Ignitehub.App/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "131">
+               </Location>
+               <Location
+                  uuid = "6D7CD899-F0C1-46B2-BEB0-8DC52540FAC0 - a06ba8697122faa5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IgniteHub.ViewController.sendEmail(Any) -&gt; ()"
+                  moduleName = "IgniteHub"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/164127/Documents/Xcode/IgniteHub/Ignitehub.App/Ignitehub.App/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "139">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

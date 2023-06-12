@@ -21,7 +21,7 @@ class WeeklyViewController: UIViewController, UICollectionViewDelegate, UICollec
     @IBSegueAction func showDetails(_ coder: NSCoder, sender: Any?) -> EventDetailsViewController? {
         if let cell = sender as? EventCell, let indexPath = tableView.indexPath(for: cell) {
             
-            let event = Event().eventsForDate(date: selectedDate)[indexPath.row]
+        let event = Event().eventsForDate(date: selectedDate)[indexPath.row]
             return EventDetailsViewController(coder: coder, event: event)
         } else {
             return EventDetailsViewController(coder: coder, event: nil)
@@ -43,8 +43,7 @@ class WeeklyViewController: UIViewController, UICollectionViewDelegate, UICollec
     
     func refresh() {
         blueView.backgroundColor = UIColor.clear
-        var colors = Colors()
-        var backgroundLayer = colors.gl
+        let backgroundLayer = Colors().gl
         backgroundLayer!.frame = blueView.frame
         blueView.layer.insertSublayer(backgroundLayer!, at: 0)
     }
@@ -53,8 +52,8 @@ class WeeklyViewController: UIViewController, UICollectionViewDelegate, UICollec
     {
         
         var width = (collectionView.frame.size.width - 2) / 8
-
-        if(UIScreen.main.bounds.width > 390) {
+        let screen = UIScreen.main.bounds.width
+        if(screen >= 390) {
             width = (collectionView.frame.size.width - 2) / 7
         }
         

@@ -19,7 +19,6 @@
 		748627432A0E7D7F00D8A66D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 748627452A0E7D7F00D8A66D /* Localizable.strings */; };
 		748CE57C2A16655800B86583 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748CE57B2A16655800B86583 /* CalendarViewController.swift */; };
 		7497D4F32A26C11600D98349 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7497D4F22A26C11600D98349 /* AboutViewController.swift */; };
-		74C9153D2A0303E500D0B0EB /* launchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C9153C2A0303E500D0B0EB /* launchData.swift */; };
 		74D66FC32A27DCE20001E8EE /* CalendarDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D66FC22A27DCE20001E8EE /* CalendarDay.swift */; };
 		74E831C22A2772E00010CCF8 /* DailyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E831C12A2772E00010CCF8 /* DailyCell.swift */; };
 		74E831C42A2772F50010CCF8 /* DailyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E831C32A2772F50010CCF8 /* DailyViewController.swift */; };
@@ -64,7 +63,6 @@
 		748627462A0E7D8A00D8A66D /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		748CE57B2A16655800B86583 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		7497D4F22A26C11600D98349 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
-		74C9153C2A0303E500D0B0EB /* launchData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = launchData.swift; sourceTree = "<group>"; };
 		74D66FC22A27DCE20001E8EE /* CalendarDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDay.swift; sourceTree = "<group>"; };
 		74E831C12A2772E00010CCF8 /* DailyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyCell.swift; sourceTree = "<group>"; };
 		74E831C32A2772F50010CCF8 /* DailyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyViewController.swift; sourceTree = "<group>"; };
@@ -118,7 +116,6 @@
 				7497D4F22A26C11600D98349 /* AboutViewController.swift */,
 				74FF5C682A14706E00380170 /* CarouselLayout.swift */,
 				74FF5C662A146F2600380170 /* Carousel.swift */,
-				74C9153C2A0303E500D0B0EB /* launchData.swift */,
 				7486273D2A0E7A1C00D8A66D /* stringLocalization.swift */,
 				742851FF2A29A4C500D07D55 /* ResourcesViewController.swift */,
 				EB8CE6D82A16684800CD9E4B /* FileProcceser */,
@@ -256,7 +253,6 @@
 				EB7CEE8A2A1E4CB600AB8245 /* IntermModel.swift in Sources */,
 				74FE1DD02A13275C00082D98 /* CalendarHelper.swift in Sources */,
 				74E831C22A2772E00010CCF8 /* DailyCell.swift in Sources */,
-				74C9153D2A0303E500D0B0EB /* launchData.swift in Sources */,
 				74FF16552A13350500DB94D1 /* WeeklyViewController.swift in Sources */,
 				74FF165B2A13471F00DB94D1 /* Event.swift in Sources */,
 				EBBA058E2A17282C003DB78A /* Downloader.swift in Sources */,

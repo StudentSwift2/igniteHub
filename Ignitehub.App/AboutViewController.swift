@@ -6,10 +6,30 @@
 //
 
 import UIKit
+import MessageUI
 
-class AboutViewController: UIViewController {
+class AboutViewController: UIViewController,MFMailComposeViewControllerDelegate {
     
     @IBOutlet weak var navTitle: UINavigationItem!
+    
+    @IBAction func sendEmail(_ sender: Any) {
+        let check = MFMailComposeViewController.canSendMail()
+        
+        if MFMailComposeViewController.canSendMail() {
+               let mail = MFMailComposeViewController()
+               mail.mailComposeDelegate = self
+               mail.setToRecipients(["you@yoursite.com"])
+               mail.setMessageBody("<p>You're so awesome!</p>", isHTML: true)
+
+               present(mail, animated: true)
+           } else {
+               // show failure alert
+           }
+    }
+    
+    func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
+            dismiss(animated: true, completion: nil)
+    }
     
     @IBAction func toYoutube(_ sender: UIButton) {
         let webUrl = "https://www.youtube.com/channel/UC4HmlgF7F0qxN5bIqjKgCTQ"

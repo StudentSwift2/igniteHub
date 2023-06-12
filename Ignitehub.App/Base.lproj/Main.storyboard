@@ -171,16 +171,16 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wr5-9z-Gm2">
                                                 <rect key="frame" x="0.0" y="770" width="394" height="1395"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="752" text="Plain 2023 Speakers Series" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5W4-Wk-jum">
-                                                        <rect key="frame" x="56" y="35.000000000000007" width="282" height="71.666666666666686"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="752" ambiguous="YES" text="Plain 2023 Speakers Series" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5W4-Wk-jum">
+                                                        <rect key="frame" x="56" y="35" width="282" height="71.666666666666686"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pdf2" highlightedImage="pdf2" translatesAutoresizingMaskIntoConstraints="NO" id="gLw-uq-Ldz">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="pdf2" highlightedImage="pdf2" translatesAutoresizingMaskIntoConstraints="NO" id="gLw-uq-Ldz">
                                                         <rect key="frame" x="75" y="131.66666666666663" width="244" height="345"/>
                                                     </imageView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="S40-AQ-tXR">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" ambiguous="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="S40-AQ-tXR">
                                                         <rect key="frame" x="55" y="481.66666666666674" width="284" height="38.333333333333371"/>
                                                         <string key="text">ignITe Hub Fireside Chat Career Series
 </string>
@@ -188,8 +188,8 @@
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="29X-3F-TaB">
-                                                        <rect key="frame" x="80" y="537" width="234" height="35.666666666666629"/>
+                                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="29X-3F-TaB">
+                                                        <rect key="frame" x="80" y="530" width="234" height="35.666666666666629"/>
                                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="DOWNLOAD (PDF) -&gt;" cornerStyle="fixed">
@@ -203,13 +203,13 @@
                                                         </connections>
                                                     </button>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="pdf1" translatesAutoresizingMaskIntoConstraints="NO" id="mIN-aB-BQ0">
-                                                        <rect key="frame" x="75" y="597.66666666666674" width="244" height="345"/>
+                                                        <rect key="frame" x="75" y="590.66666666666674" width="244" height="345"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="345" id="v5Z-nP-Suw"/>
                                                         </constraints>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="TuM-Tl-Ghx">
-                                                        <rect key="frame" x="30" y="947.66666666666674" width="334" height="38.333333333333371"/>
+                                                        <rect key="frame" x="30" y="940.66666666666674" width="334" height="38.333333333333371"/>
                                                         <string key="text">ignITe Hub Future of Techology Career Series
 </string>
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -227,7 +227,7 @@
                                                             <wkPreferences key="preferences"/>
                                                         </wkWebViewConfiguration>
                                                     </wkWebView>
-                                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lEN-9M-JoW">
+                                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="252" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lEN-9M-JoW">
                                                         <rect key="frame" x="80" y="996" width="234" height="35.666666666666742"/>
                                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <state key="normal" title="Button"/>
@@ -290,6 +290,9 @@
                                                             </backgroundConfiguration>
                                                             <fontDescription key="titleFontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="18"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="shareInput:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NYX-Gz-J7q"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -376,12 +379,24 @@ Saturdays: Special Events Only </string>
                                                         <color key="textColor" systemColor="systemGray5Color"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MJt-SL-8rd">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MJt-SL-8rd">
                                                         <rect key="frame" x="40" y="271.66666666666652" width="314" height="57.333333333333314"/>
-                                                        <string key="text">Montgomery College – Rockville Campus
-info@ignitehubmc.com</string>
-                                                        <fontDescription key="fontDescription" name=".AppleSystemUIFontBold" family=".AppleSystemUIFont" pointSize="16"/>
-                                                        <color key="textColor" red="0.73725491759999995" green="0.73725491759999995" blue="0.73725491759999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment>
+                                                                <string key="content">Montgomery College – Rockville Campus
+</string>
+                                                                <attributes>
+                                                                    <color key="NSColor" red="0.73725491759999995" green="0.73725491759999995" blue="0.73725491759999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <font key="NSFont" metaFont="systemBold" size="16"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                            <fragment content="info@ignitehubmc.com">
+                                                                <attributes>
+                                                                    <color key="NSColor" red="0.0" green="0.39045579296488792" blue="0.73725491759999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <font key="NSFont" metaFont="systemBold" size="16"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Follow Us:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="Gxz-c7-Br4">
@@ -424,6 +439,14 @@ Rockville, MD 20850</string>
                                                             <action selector="toYoutube:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pgI-vg-9OV"/>
                                                         </connections>
                                                     </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l0X-lq-F4R">
+                                                        <rect key="frame" x="40" y="271.66666666666652" width="314" height="57.333333333333314"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain"/>
+                                                        <connections>
+                                                            <action selector="sendEmail:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lgc-Pe-VIE"/>
+                                                        </connections>
+                                                    </button>
                                                 </subviews>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
@@ -432,6 +455,7 @@ Rockville, MD 20850</string>
                                                     <constraint firstItem="MJt-SL-8rd" firstAttribute="leading" secondItem="bZS-CS-CHa" secondAttribute="leading" constant="40" id="0tf-SU-pdw"/>
                                                     <constraint firstAttribute="trailing" secondItem="iMW-9i-9dG" secondAttribute="trailing" constant="200" id="1AV-mz-FxT"/>
                                                     <constraint firstItem="mDL-qJ-Cog" firstAttribute="top" secondItem="YQ1-jk-BeL" secondAttribute="bottom" constant="20" id="4ce-cj-gEY"/>
+                                                    <constraint firstItem="l0X-lq-F4R" firstAttribute="top" secondItem="nDl-j1-hDS" secondAttribute="bottom" id="4na-lO-Ldu"/>
                                                     <constraint firstItem="cDO-QS-qyN" firstAttribute="top" secondItem="mZ5-J7-pAG" secondAttribute="bottom" id="4pL-LQ-IVl"/>
                                                     <constraint firstAttribute="height" constant="950" id="78T-WR-yRU"/>
                                                     <constraint firstItem="rHv-Qq-E7x" firstAttribute="leading" secondItem="bZS-CS-CHa" secondAttribute="leading" constant="30" id="7Ju-23-sXM"/>
@@ -446,7 +470,10 @@ Rockville, MD 20850</string>
                                                     <constraint firstItem="YQ1-jk-BeL" firstAttribute="leading" secondItem="bZS-CS-CHa" secondAttribute="leading" constant="40" id="Wqd-0k-pJO"/>
                                                     <constraint firstItem="iMW-9i-9dG" firstAttribute="top" secondItem="YQ1-jk-BeL" secondAttribute="bottom" constant="18" id="XPZ-QS-Q4P"/>
                                                     <constraint firstItem="MJt-SL-8rd" firstAttribute="top" secondItem="nDl-j1-hDS" secondAttribute="bottom" id="XYh-Ee-XJl"/>
+                                                    <constraint firstItem="kIv-gj-gKY" firstAttribute="top" secondItem="l0X-lq-F4R" secondAttribute="bottom" constant="10" id="bOa-OK-c9N"/>
                                                     <constraint firstAttribute="trailing" secondItem="rHv-Qq-E7x" secondAttribute="trailing" constant="30" id="beq-Ht-xqx"/>
+                                                    <constraint firstAttribute="trailing" secondItem="l0X-lq-F4R" secondAttribute="trailing" constant="40" id="chB-PR-rox"/>
+                                                    <constraint firstItem="l0X-lq-F4R" firstAttribute="leading" secondItem="bZS-CS-CHa" secondAttribute="leading" constant="40" id="dIR-j3-gqU"/>
                                                     <constraint firstAttribute="trailing" secondItem="cDO-QS-qyN" secondAttribute="trailing" constant="40" id="fOY-FQ-csx"/>
                                                     <constraint firstItem="Gxz-c7-Br4" firstAttribute="leading" secondItem="bZS-CS-CHa" secondAttribute="leading" constant="40" id="fhZ-7J-Hmg"/>
                                                     <constraint firstItem="nDl-j1-hDS" firstAttribute="leading" secondItem="bZS-CS-CHa" secondAttribute="leading" constant="40" id="g7K-e4-ehz"/>
@@ -716,12 +743,24 @@ Saturdays: Special Events Only </string>
                                                         <color key="textColor" systemColor="systemGray5Color"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dKe-d0-c1d">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dKe-d0-c1d">
                                                         <rect key="frame" x="40" y="271.66666666666697" width="315" height="57.333333333333314"/>
-                                                        <string key="text">Montgomery College – Rockville Campus
-info@ignitehubmc.com</string>
-                                                        <fontDescription key="fontDescription" name=".AppleSystemUIFontBold" family=".AppleSystemUIFont" pointSize="16"/>
-                                                        <color key="textColor" red="0.73725491759999995" green="0.73725491759999995" blue="0.73725491759999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment>
+                                                                <string key="content">Montgomery College – Rockville Campus
+</string>
+                                                                <attributes>
+                                                                    <color key="NSColor" red="0.73725491759999995" green="0.73725491759999995" blue="0.73725491759999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <font key="NSFont" metaFont="systemBold" size="16"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                            <fragment content="info@ignitehubmc.com">
+                                                                <attributes>
+                                                                    <color key="NSColor" red="0.01408749819" green="0.38741886619999999" blue="0.73214322330000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <font key="NSFont" metaFont="systemBold" size="16"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mannakee Building" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0zA-7l-TTd">
@@ -758,6 +797,14 @@ Rockville, MD 20850</string>
                                                             <action selector="toYoutube:" destination="CnY-ld-93N" eventType="touchUpInside" id="vFk-Ox-FJj"/>
                                                         </connections>
                                                     </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BHL-TW-TYl">
+                                                        <rect key="frame" x="40" y="271.66666666666697" width="315" height="57.333333333333314"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain"/>
+                                                        <connections>
+                                                            <action selector="sendEmail:" destination="CnY-ld-93N" eventType="touchUpInside" id="acf-aT-TEL"/>
+                                                        </connections>
+                                                    </button>
                                                 </subviews>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
@@ -766,11 +813,14 @@ Rockville, MD 20850</string>
                                                     <constraint firstItem="Vwe-QF-rhS" firstAttribute="leading" secondItem="iJy-c9-aAS" secondAttribute="trailing" constant="10" id="3va-34-CeC"/>
                                                     <constraint firstItem="dKe-d0-c1d" firstAttribute="leading" secondItem="o2W-mw-Nxw" secondAttribute="leading" constant="40" id="5ot-v7-3oE"/>
                                                     <constraint firstItem="0zA-7l-TTd" firstAttribute="leading" secondItem="o2W-mw-Nxw" secondAttribute="leading" constant="40" id="61E-hz-k4Z"/>
+                                                    <constraint firstItem="0zA-7l-TTd" firstAttribute="top" secondItem="BHL-TW-TYl" secondAttribute="bottom" constant="10" id="6jz-db-NfA"/>
                                                     <constraint firstAttribute="trailing" secondItem="0zA-7l-TTd" secondAttribute="trailing" constant="40" id="C2U-GK-uOa"/>
                                                     <constraint firstItem="0zA-7l-TTd" firstAttribute="top" secondItem="dKe-d0-c1d" secondAttribute="bottom" constant="10" id="E5B-6i-cqR"/>
                                                     <constraint firstItem="dKe-d0-c1d" firstAttribute="top" secondItem="Qyn-ws-AiH" secondAttribute="bottom" id="EWJ-nN-HaU"/>
                                                     <constraint firstItem="iJy-c9-aAS" firstAttribute="leading" secondItem="o2W-mw-Nxw" secondAttribute="leading" constant="40" id="FGA-sl-4r3"/>
+                                                    <constraint firstItem="BHL-TW-TYl" firstAttribute="top" secondItem="Qyn-ws-AiH" secondAttribute="bottom" id="Fpr-Yg-g7N"/>
                                                     <constraint firstItem="27o-CW-zpb" firstAttribute="top" secondItem="o2W-mw-Nxw" secondAttribute="top" id="Ftx-F1-2NF"/>
+                                                    <constraint firstItem="BHL-TW-TYl" firstAttribute="leading" secondItem="o2W-mw-Nxw" secondAttribute="leading" constant="40" id="G0D-hr-uBb"/>
                                                     <constraint firstItem="LTs-50-gzs" firstAttribute="top" secondItem="r6U-Mx-4nU" secondAttribute="bottom" constant="20" id="I2G-DT-85Y"/>
                                                     <constraint firstItem="sFG-rv-ugZ" firstAttribute="leading" secondItem="o2W-mw-Nxw" secondAttribute="leading" constant="40" id="I6x-EX-nLz"/>
                                                     <constraint firstAttribute="trailing" secondItem="dKe-d0-c1d" secondAttribute="trailing" constant="40" id="J7g-Fw-eEj"/>
@@ -784,6 +834,7 @@ Rockville, MD 20850</string>
                                                     <constraint firstAttribute="trailing" secondItem="27o-CW-zpb" secondAttribute="trailing" constant="30" id="htg-Ni-oGx"/>
                                                     <constraint firstItem="r6U-Mx-4nU" firstAttribute="leading" secondItem="o2W-mw-Nxw" secondAttribute="leading" constant="40" id="iZS-5M-4FE"/>
                                                     <constraint firstItem="xHi-Yw-7aF" firstAttribute="leading" secondItem="o2W-mw-Nxw" secondAttribute="leading" constant="40" id="kb3-bv-iBq"/>
+                                                    <constraint firstAttribute="trailing" secondItem="BHL-TW-TYl" secondAttribute="trailing" constant="40" id="qP8-OU-aHP"/>
                                                     <constraint firstItem="xHi-Yw-7aF" firstAttribute="top" secondItem="sFG-rv-ugZ" secondAttribute="bottom" id="qch-h3-9zW"/>
                                                     <constraint firstAttribute="height" constant="750" id="tye-bu-fXj"/>
                                                     <constraint firstAttribute="trailing" secondItem="Qyn-ws-AiH" secondAttribute="trailing" constant="40" id="xXW-ig-0vN"/>
@@ -1192,7 +1243,7 @@ Rockville, MD 20850</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="V8i-eS-eMw">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="V8i-eS-eMw">
                                 <rect key="frame" x="20" y="358.66666666666674" width="335" height="345.33333333333326"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -1647,7 +1698,6 @@ Rockville, MD 20850</string>
                                             <outlet property="event2" destination="PtW-Et-yar" id="8I9-Wm-2S7"/>
                                             <outlet property="event3" destination="kEJ-Q5-StV" id="42K-50-0vB"/>
                                             <outlet property="time" destination="lSW-Jg-DSK" id="Pyo-uX-OZX"/>
-                                            <segue destination="f54-fV-bXX" kind="show" destinationCreationSelector="showDetails:sender:" id="13z-nj-qkf"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -1656,6 +1706,12 @@ Rockville, MD 20850</string>
                                     <outlet property="delegate" destination="ZII-W9-GWl" id="6H4-GL-464"/>
                                 </connections>
                             </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eFY-v9-oZq">
+                                <rect key="frame" x="500" y="-100" width="75" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="X40-op-z56"/>
                         <color key="backgroundColor" systemColor="systemBlueColor"/>
@@ -1676,11 +1732,12 @@ Rockville, MD 20850</string>
                         <outlet property="blueView" destination="On5-eL-Sb9" id="YFo-lH-JZb"/>
                         <outlet property="dayOfWeekLabel" destination="DdE-kc-v0D" id="DDb-Sz-mZM"/>
                         <outlet property="hourTableView" destination="k3J-Ck-akh" id="KDR-xs-8kb"/>
+                        <segue destination="f54-fV-bXX" kind="show" identifier="toDetail" destinationCreationSelector="showDetail:sender:" id="wae-Jr-00d"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xv4-mF-wUr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-847" y="2956"/>
+            <point key="canvasLocation" x="-804" y="2984"/>
         </scene>
         <!--Events-->
         <scene sceneID="Fv3-Dc-9Oq">
@@ -1728,7 +1785,7 @@ Rockville, MD 20850</string>
                                 <rect key="frame" x="0.0" y="100" width="394" height="1917"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KjY-Kn-d1F">
-                                        <rect key="frame" x="0.0" y="0.0" width="395" height="2275"/>
+                                        <rect key="frame" x="1" y="0.0" width="395" height="2275"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6IB-qn-CK9">
                                                 <rect key="frame" x="-50" y="-58" width="504" height="179"/>
@@ -1861,12 +1918,24 @@ Saturdays: Special Events Only </string>
                                                         <color key="textColor" systemColor="systemGray5Color"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pCz-mj-V3z">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pCz-mj-V3z">
                                                         <rect key="frame" x="40" y="271.66666666666652" width="315" height="57.333333333333314"/>
-                                                        <string key="text">Montgomery College – Rockville Campus
-info@ignitehubmc.com</string>
-                                                        <fontDescription key="fontDescription" name=".AppleSystemUIFontBold" family=".AppleSystemUIFont" pointSize="16"/>
-                                                        <color key="textColor" red="0.73725491759999995" green="0.73725491759999995" blue="0.73725491759999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment>
+                                                                <string key="content">Montgomery College – Rockville Campus
+</string>
+                                                                <attributes>
+                                                                    <color key="NSColor" red="0.73725491759999995" green="0.73725491759999995" blue="0.73725491759999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <font key="NSFont" metaFont="systemBold" size="16"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                            <fragment content="info@ignitehubmc.com">
+                                                                <attributes>
+                                                                    <color key="NSColor" red="0.01307596732" green="0.37568536400000002" blue="0.70825988049999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <font key="NSFont" metaFont="systemBold" size="16"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mannakee Building" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Xm-rQ-5VM">
@@ -1903,6 +1972,14 @@ Rockville, MD 20850</string>
                                                             <action selector="toYoutube:" destination="ClT-8l-iCV" eventType="touchUpInside" id="mSd-kZ-CNz"/>
                                                         </connections>
                                                     </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5E5-VF-jfv">
+                                                        <rect key="frame" x="40" y="271.66666666666652" width="315" height="57.333333333333314"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain"/>
+                                                        <connections>
+                                                            <action selector="sendEmail:" destination="ClT-8l-iCV" eventType="touchUpInside" id="hns-QT-jt9"/>
+                                                        </connections>
+                                                    </button>
                                                 </subviews>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
@@ -1916,14 +1993,17 @@ Rockville, MD 20850</string>
                                                     <constraint firstAttribute="trailing" secondItem="LEt-PF-uzh" secondAttribute="trailing" constant="40" id="Bc8-aR-J5c"/>
                                                     <constraint firstItem="2Su-Jh-oH2" firstAttribute="leading" secondItem="yd4-vB-9HI" secondAttribute="leading" constant="40" id="DXr-OB-2xm"/>
                                                     <constraint firstItem="IAd-dm-2dc" firstAttribute="leading" secondItem="2Su-Jh-oH2" secondAttribute="trailing" constant="10" id="DaD-2Z-Kp7"/>
+                                                    <constraint firstItem="5E5-VF-jfv" firstAttribute="top" secondItem="RHN-1F-ga0" secondAttribute="bottom" id="GDZ-47-luW"/>
                                                     <constraint firstItem="WMb-5l-FdF" firstAttribute="leading" secondItem="yd4-vB-9HI" secondAttribute="leading" constant="40" id="GZs-hu-XHF"/>
                                                     <constraint firstItem="pCz-mj-V3z" firstAttribute="top" secondItem="RHN-1F-ga0" secondAttribute="bottom" id="Iha-xQ-zaA"/>
+                                                    <constraint firstItem="5E5-VF-jfv" firstAttribute="leading" secondItem="yd4-vB-9HI" secondAttribute="leading" constant="40" id="OH8-th-Ug2"/>
                                                     <constraint firstAttribute="trailing" secondItem="RHN-1F-ga0" secondAttribute="trailing" constant="40" id="QsX-2f-umO"/>
                                                     <constraint firstAttribute="trailing" secondItem="s3m-YB-z6j" secondAttribute="trailing" constant="40" id="Tjj-Zt-6e5"/>
                                                     <constraint firstItem="KLc-gU-5uM" firstAttribute="leading" secondItem="yd4-vB-9HI" secondAttribute="leading" constant="30" id="W38-uG-CSa"/>
                                                     <constraint firstItem="LEt-PF-uzh" firstAttribute="leading" secondItem="yd4-vB-9HI" secondAttribute="leading" constant="40" id="XHm-8w-rbf"/>
                                                     <constraint firstItem="s3m-YB-z6j" firstAttribute="top" secondItem="LEt-PF-uzh" secondAttribute="bottom" id="aMD-XK-w29"/>
                                                     <constraint firstItem="RHN-1F-ga0" firstAttribute="leading" secondItem="yd4-vB-9HI" secondAttribute="leading" constant="40" id="b5W-L6-dfG"/>
+                                                    <constraint firstAttribute="trailing" secondItem="5E5-VF-jfv" secondAttribute="trailing" constant="40" id="exB-TK-Eaa"/>
                                                     <constraint firstItem="RHN-1F-ga0" firstAttribute="top" secondItem="s3m-YB-z6j" secondAttribute="bottom" constant="10" id="fJD-Mn-aLm"/>
                                                     <constraint firstAttribute="trailing" secondItem="8Xm-rQ-5VM" secondAttribute="trailing" constant="40" id="fZU-KA-Td6"/>
                                                     <constraint firstItem="KLc-gU-5uM" firstAttribute="top" secondItem="yd4-vB-9HI" secondAttribute="top" id="ftS-Cy-JD9"/>
@@ -1933,6 +2013,7 @@ Rockville, MD 20850</string>
                                                     <constraint firstItem="ZHj-r5-3Yl" firstAttribute="leading" secondItem="2Su-Jh-oH2" secondAttribute="trailing" constant="10" id="onO-Tf-RJm"/>
                                                     <constraint firstAttribute="height" constant="750" id="qO3-He-jFD"/>
                                                     <constraint firstItem="pCz-mj-V3z" firstAttribute="leading" secondItem="yd4-vB-9HI" secondAttribute="leading" constant="40" id="rIu-bH-Lx2"/>
+                                                    <constraint firstItem="8Xm-rQ-5VM" firstAttribute="top" secondItem="5E5-VF-jfv" secondAttribute="bottom" constant="10" id="vWu-BZ-o4o"/>
                                                     <constraint firstItem="2Su-Jh-oH2" firstAttribute="top" secondItem="WMb-5l-FdF" secondAttribute="bottom" constant="25" id="ytK-yY-qUQ"/>
                                                 </constraints>
                                             </view>
@@ -2031,11 +2112,11 @@ Rockville, MD 20850</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sa4-DY-gMd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1499" y="1118"/>
+            <point key="canvasLocation" x="1497.5999999999999" y="1117.9802955665025"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="13z-nj-qkf"/>
+        <segue reference="wae-Jr-00d"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Careers" width="66.666664123535156" height="100"/>

@@ -16,4 +16,5 @@ class DailyCell: UITableViewCell {
     @IBOutlet weak var event3: UILabel!
     
     
+    
 }

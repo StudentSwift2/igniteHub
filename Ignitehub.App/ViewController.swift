@@ -9,8 +9,28 @@ import UIKit
 import AVKit
 import AVFoundation
 import WebKit
+import MessageUI
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, MFMailComposeViewControllerDelegate {
+    
+    @IBAction func sendEmail(_ sender: Any) {
+        let check = MFMailComposeViewController.canSendMail()
+        
+        if MFMailComposeViewController.canSendMail() {
+               let mail = MFMailComposeViewController()
+               mail.mailComposeDelegate = self
+               mail.setToRecipients(["you@yoursite.com"])
+               mail.setMessageBody("<p>You're so awesome!</p>", isHTML: true)
+
+               present(mail, animated: true)
+           } else {
+               // show failure alert
+           }
+    }
+    
+    func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
+            dismiss(animated: true, completion: nil)
+    }
     
     @IBAction func playTourVideo(_ sender: UIButton) {
         let webUrl = "https://www.youtube.com/watch?v=FpxGGc3jKAM"
@@ -41,6 +61,16 @@ class ViewController: UIViewController {
             }
         }
     }
+    
+    @IBAction func shareInput(_ sender: Any) {
+        let webUrl = "https://forms.office.com/Pages/ResponsePage.aspx?id=Cx5ATVJlCE69OKjRXKDd2dp3Jd9uhapOt3TD64IeZ0NUQktBTUdWRk04NUtXNFpXRkszUE5VODk0Ui4u"
+        if let url = URL(string: webUrl) {
+            if UIApplication.shared.canOpenURL(url) {
+                UIApplication.shared.open(url, options: [:], completionHandler: nil)
+            }
+        }
+    }
+    
     
     @IBAction func toYoutube(_ sender: UIButton) {
         let webUrl = "https://www.youtube.com/channel/UC4HmlgF7F0qxN5bIqjKgCTQ"

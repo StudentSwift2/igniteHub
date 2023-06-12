@@ -65,12 +65,13 @@ class Event {
     func eventsForDateAndTime(date: Date, hour: Int) -> [Event]
     {
         var daysEvents = [Event]()
-
+        
         for event in eventsList
         {
+            
             if(Calendar.current.isDate(event.startDate, inSameDayAs: date)) {
                 let eventHour = CalendarHelper().hoursFromDate(date: event.startDate)
-                if eventHour == hour {
+                if eventHour == hour || (hour < 9 && eventHour == hour + 12) {
                     daysEvents.append(event)
                 }
             }

@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7449D0EF2A029CA5003BEDBF"
-               BuildableName = "Ignitehub.App.app"
+               BuildableName = "IgniteHub.app"
                BlueprintName = "Ignitehub.App"
                ReferencedContainer = "container:Ignitehub.App 2.xcodeproj">
             </BuildableReference>
@@ -44,7 +44,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7449D0EF2A029CA5003BEDBF"
-            BuildableName = "Ignitehub.App.app"
+            BuildableName = "IgniteHub.app"
             BlueprintName = "Ignitehub.App"
             ReferencedContainer = "container:Ignitehub.App 2.xcodeproj">
          </BuildableReference>
@@ -61,7 +61,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7449D0EF2A029CA5003BEDBF"
-            BuildableName = "Ignitehub.App.app"
+            BuildableName = "IgniteHub.app"
             BlueprintName = "Ignitehub.App"
             ReferencedContainer = "container:Ignitehub.App 2.xcodeproj">
          </BuildableReference>
