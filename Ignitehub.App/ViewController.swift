@@ -118,10 +118,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()        
         setLabels()
-
-        //let events = FileProccesser.getIgniteHubCalerderData();
-       // if let events = events { eventsList = events }
-
         setNavTitle()
         getVideo()        
         igniteLabel.layer.backgroundColor  = UIColor.white.cgColor
