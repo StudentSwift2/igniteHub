@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-class CalendarHelper {
+final class CalendarHelper {
     let calendar = Calendar.current
     
     func plusMonth(date:Date) -> Date {

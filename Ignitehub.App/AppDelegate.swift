@@ -14,6 +14,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // MARK: UISceneSession Lifecycle
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+        
+        // Get calender data for Ignitehubmc.com
+        let events = FileProccesser.getIgniteHubCalerderData();
+        // Add the events to the global array
+        if let events = events { eventsList = events }
+        
         let audioSession = AVAudioSession.sharedInstance()
             do {
                 try audioSession.setCategory(.playback, mode: .moviePlayback)

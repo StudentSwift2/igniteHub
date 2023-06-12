@@ -63,7 +63,7 @@ class CalendarViewController: UIViewController, UICollectionViewDelegate, UIColl
         let daysInPrevMonth = CalendarHelper().daysInMonth(date: prevMonth)
         
         while(count <= 42) {
-            let calendarDay = CalendarDay()
+            var calendarDay = CalendarDay()
             if(count <= startingSpaces) {
                 let prevMonthDay = daysInPrevMonth - startingSpaces + count
                 calendarDay.day = String(prevMonthDay)

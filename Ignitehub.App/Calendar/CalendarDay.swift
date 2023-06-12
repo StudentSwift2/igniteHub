@@ -7,7 +7,7 @@
 
 import Foundation
 
-class CalendarDay {
+struct CalendarDay {
     var day : String!
     var month : Month!
     
